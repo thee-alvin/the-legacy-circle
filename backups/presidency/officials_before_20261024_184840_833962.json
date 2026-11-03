@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T18:39:47+03:00",
+  "updated_by": "TLC/001/2026",
+  "officials": [
+    {
+      "key": "CHAIRPERSON",
+      "position_id": "TLC-POS-001",
+      "position": "Chairperson",
+      "order": 1,
+      "name": "Sheela Onyango",
+      "member_id": "TLC/003/2026",
+      "photo_url": "/assets/profile_pictures/TLC_003_2026.jpg",
+      "term_start": "2026-09-20",
+      "term_end": "2027-09-20",
+      "status": "ACTIVE",
+      "biography": "(a) Provide leadership to the group;\n\n(b) Chair official meetings;\n\n(c) Ensure approved decisions are implemented;\n\n(d) Promote unity among members;\n\n(e) Ensure that this Constitution is respected;\n\n(f) Represent the group when properly authorized;\n\n(g) Coordinate the work of officials;\n\n(h) Promote accountability and participation; and\n\n(i) Ensure that the group remains focused on its objectives."
+    },
+    {
+      "key": "VICE_CHAIRPERSON",
+      "position_id": "TLC-POS-002",
+      "position": "Vice Chairperson",
+      "order": 2,
+      "name": "",
+      "member_id": "",
+      "photo_url": "",
+      "term_start": "",
+      "term_end": "",
+      "status": "VACANT",
+      "biography": ""
+    },
+    {
+      "key": "SECRETARY",
+      "position_id": "TLC-POS-003",
+      "position": "Secretary",
+      "order": 3,
+      "name": "Faith Tracy",
+      "member_id": "TLC/005/2026",
+      "photo_url": "",
+      "term_start": "2026-09-20",
+      "term_end": "2026-09-20",
+      "status": "ACTIVE",
+      "biography": "(a) Record meeting minutes;\n\n(b) Maintain official documents;\n\n(c) Maintain the membership register;\n\n(d) Prepare meeting notices;\n\n(e) Record official resolutions;\n\n(f) Maintain official correspondence;\n\n(g) Safeguard administrative records;\n\n(h) Communicate approved information to members; and\n\n(i) Maintain an organized archive of group documents."
+    },
+    {
+      "key": "TREASURER",
+      "position_id": "TLC-POS-004",
+      "position": "Treasurer",
+      "order": 4,
+      "name": "Owuor Alvin",
+      "member_id": "TLC/001/2026",
+      "photo_url": "/assets/profile_pictures/TLC_001_2026.png",
+      "term_start": "2026-09-20",
+      "term_end": "2027-09-20",
+      "status": "ACTIVE",
+      "biography": "(a) Maintain accurate financial records;\n\n(b) Record member contributions;\n\n(c) Prepare financial reports;\n\n(d) Maintain expenditure records;\n\n(e) Keep supporting financial documentation;\n\n(f) Provide financial information to members;\n\n(g) Ensure that funds are handled according to approved procedures;\n\n(h) Report financial irregularities; and\n\n(i) Present the financial position of the group when required."
+    }
+  ]
+}

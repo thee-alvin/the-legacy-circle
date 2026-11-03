@@ -1,0 +1,132 @@
+{
+  "purpose": "TLC recovered-receipt email attempts",
+  "created_at": "2026-10-16T19:27:12",
+  "receipts": {
+    "TLC/RCPT/2026/000026": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:27:36",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000027": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:27:56",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000028": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:28:21",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000029": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:28:42",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000030": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:29:00",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000034": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:29:17",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000035": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:29:32",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000036": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:29:54",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000037": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:30:14",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000038": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:30:31",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000043": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:32:08",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000044": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:32:23",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000045": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:32:38",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    },
+    "TLC/RCPT/2026/000046": {
+      "attempts": [
+        {
+          "timestamp": "2026-10-16T19:32:55",
+          "result": "SMTP_ACCEPTED",
+          "message": "Receipt PDF emailed successfully."
+        }
+      ]
+    }
+  }
+}

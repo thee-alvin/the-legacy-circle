@@ -1,0 +1,139 @@
+from flask import Blueprint, jsonify, request, send_from_directory
+
+from app.auth.session import get_current_member_id
+from .service import build_member_statement
+
+
+member_statement_api = Blueprint(
+    "member_statement_api",
+    __name__
+)
+
+ADMIN_MEMBER_ID = "TLC/001/2026"
+
+
+def _is_authorized():
+    return (
+        str(
+            get_current_member_id() or ""
+        ).strip().upper()
+        == ADMIN_MEMBER_ID
+    )
+
+
+def _clean(value):
+    return str(value or "").strip()
+
+
+@member_statement_api.get(
+    "/api/tlc/member-statement"
+)
+def member_statement():
+
+    if not _is_authorized():
+        return jsonify({
+            "success": False,
+            "message": "Access denied."
+        }), 403
+
+    member_id = _clean(
+        request.args.get("member_id")
+    )
+
+    year = _clean(
+        request.args.get("year")
+    )
+
+    month = _clean(
+        request.args.get("month")
+    )
+
+    if not member_id:
+        return jsonify({
+            "success": False,
+            "message": "Member ID is required."
+        }), 400
+
+    if year and (
+        not year.isdigit()
+        or len(year) != 4
+    ):
+        return jsonify({
+            "success": False,
+            "message": "Invalid year."
+        }), 400
+
+    if month:
+
+        if not year:
+            return jsonify({
+                "success": False,
+                "message": (
+                    "A month requires a year."
+                )
+            }), 400
+
+        if (
+            not month.isdigit()
+            or not 1 <= int(month) <= 12
+        ):
+            return jsonify({
+                "success": False,
+                "message": "Invalid month."
+            }), 400
+
+        month = str(
+            int(month)
+        ).zfill(2)
+
+    try:
+
+        statement = build_member_statement(
+            member_id=member_id,
+            year=year or None,
+            month=month or None,
+        )
+
+        if statement is None:
+            return jsonify({
+                "success": False,
+                "message": "Member was not found."
+            }), 404
+
+        return jsonify({
+            "success": True,
+            "statement": statement,
+        })
+
+    except ValueError as error:
+
+        return jsonify({
+            "success": False,
+            "message": str(error),
+        }), 400
+
+    except Exception:
+
+        return jsonify({
+            "success": False,
+            "message": (
+                "Unable to build the member statement."
+            ),
+        }), 500
+
+
+@member_statement_api.get(
+    "/tlc-member-statements"
+)
+def member_statement_page():
+
+    if not _is_authorized():
+        return jsonify({
+            "success": False,
+            "message": "Access denied."
+        }), 403
+
+    return send_from_directory(
+        "frontend/pages",
+        "tlc_member_statements.html"
+    )

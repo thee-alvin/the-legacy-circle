@@ -1,0 +1,39 @@
+{
+    "2026-09-10": {
+        "TLC/003/2026": true,
+        "TLC/004/2026": true,
+        "TLC/005/2026": true,
+        "TLC/006/2026": true,
+        "TLC/TEST/001": true
+    },
+    "2026-09-17": {
+        "TLC/001/2026": true,
+        "TLC/002/2026": true,
+        "TLC/003/2026": true,
+        "TLC/004/2026": true,
+        "TLC/005/2026": true,
+        "TLC/006/2026": true,
+        "TLC/TEST/001": true,
+        "TLC/007/2026": true
+    },
+    "2026-09-24": {
+        "TLC/001/2026": true,
+        "TLC/002/2026": true,
+        "TLC/003/2026": true,
+        "TLC/004/2026": true,
+        "TLC/005/2026": true,
+        "TLC/006/2026": true,
+        "TLC/TEST/001": true,
+        "TLC/007/2026": true
+    },
+    "2026-10-01": {
+        "TLC/001/2026": true,
+        "TLC/002/2026": true,
+        "TLC/003/2026": true,
+        "TLC/004/2026": true,
+        "TLC/005/2026": true,
+        "TLC/006/2026": true,
+        "TLC/TEST/001": true,
+        "TLC/007/2026": true
+    }
+}

@@ -1,0 +1,6 @@
+﻿from pathlib import Path
+from flask import send_file
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+CONSTITUTION_PDF = BASE_DIR / "data" / "documents" / "TLC_Constitution.pdf"
+

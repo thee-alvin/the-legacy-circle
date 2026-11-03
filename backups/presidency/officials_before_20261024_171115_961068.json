@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T17:02:16+03:00",
+  "updated_by": "TLC/001/2026",
+  "officials": [
+    {
+      "key": "CHAIRPERSON",
+      "position_id": "TLC-POS-001",
+      "position": "Chairperson",
+      "order": 1,
+      "name": "",
+      "member_id": "",
+      "photo_url": "",
+      "term_start": "",
+      "term_end": "",
+      "status": "VACANT",
+      "biography": ""
+    },
+    {
+      "key": "VICE_CHAIRPERSON",
+      "position_id": "TLC-POS-002",
+      "position": "Vice Chairperson",
+      "order": 2,
+      "name": "",
+      "member_id": "",
+      "photo_url": "",
+      "term_start": "",
+      "term_end": "",
+      "status": "VACANT",
+      "biography": ""
+    },
+    {
+      "key": "SECRETARY",
+      "position_id": "TLC-POS-003",
+      "position": "Secretary",
+      "order": 3,
+      "name": "",
+      "member_id": "",
+      "photo_url": "",
+      "term_start": "",
+      "term_end": "",
+      "status": "VACANT",
+      "biography": ""
+    },
+    {
+      "key": "TREASURER",
+      "position_id": "TLC-POS-004",
+      "position": "Treasurer",
+      "order": 4,
+      "name": "Owuor Alvin",
+      "member_id": "TLC/001/2026",
+      "photo_url": "",
+      "term_start": "2026-09-20",
+      "term_end": "2027-09-20",
+      "status": "ACTIVE",
+      "biography": ""
+    }
+  ]
+}

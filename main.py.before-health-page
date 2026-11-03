@@ -1,0 +1,789 @@
+﻿from pathlib import Path
+from flask import Flask, jsonify, request, send_from_directory
+from flask_cors import CORS
+from openpyxl import load_workbook
+from werkzeug.security import generate_password_hash, check_password_hash
+from app.members.member_api import member_api
+from app.receipts.member_receipts_api import member_receipts_api
+from app.receipts.receipt_recording_api import receipt_recording_api
+from app.receipts.member_receipt_details_api import member_receipt_details_api
+from app.receipts.receipt_pages import receipt_pages
+from app.receipts.receipt_qr_api import receipt_qr_api
+from app.auth.session import start_member_session
+from app.members.member_routes import member_routes
+from app.members.member_profile_api import member_profile_api
+from app.members.member_profile_update_api import member_profile_update_api
+from app.payments import contributions_bp, financial_summary_bp
+from app.payments.weekly_contribution_watcher import weekly_contribution_watcher
+from app.welfare import welfare_bp
+from app.welfare.welfare_requests import welfare_requests_bp
+from app.meetings import meetings_bp
+from app.meetings.meeting_watcher import meeting_watcher
+from app.announcements import announcements_bp
+from app.announcements.announcement_watcher import announcement_watcher
+from app.elections import elections_bp, election_voting_bp
+from app.elections.results_api import results_bp
+from app.elections.election_control_api import election_control_bp
+from app.elections.election_publish_api import election_publish_bp
+from app.elections.candidate_application_api import candidate_application_bp
+from app.elections.candidate_status_api import candidate_status_bp
+from app.documents.constitution_api import constitution_bp
+from app.documents.document_api import documents_bp
+from app.notifications.notification_api import notifications_bp
+from app.security.audit_log import record_activity
+from app.security.activity_api import activity_api
+from app.security.analytics_api import analytics_api
+from app.system_health.health_api import system_health_api
+from app.receipts.watcher_startup import start_contribution_watcher
+from app.receipts.receipt_email_worker import receipt_email_worker
+
+BASE_DIR = Path(__file__).resolve().parent
+FRONTEND_DIR = BASE_DIR / "frontend"
+MEMBERS_FILE = BASE_DIR / "data" / "spreadsheets" / "01_MEMBERS.xlsx"
+
+app = Flask(
+    __name__,
+    static_folder=str(FRONTEND_DIR),
+    static_url_path=""
+)
+app.config["SECRET_KEY"] = "TLC-PORTAL-2026-CHANGE-THIS-LATER"
+CORS(app)
+
+app.register_blueprint(member_api)
+app.register_blueprint(receipt_recording_api)
+app.register_blueprint(member_receipts_api)
+app.register_blueprint(member_receipt_details_api)
+app.register_blueprint(receipt_pages)
+app.register_blueprint(receipt_qr_api)
+app.register_blueprint(member_routes)
+app.register_blueprint(member_profile_api)
+app.register_blueprint(member_profile_update_api)
+app.register_blueprint(contributions_bp)
+app.register_blueprint(financial_summary_bp)
+app.register_blueprint(welfare_bp)
+app.register_blueprint(welfare_requests_bp)
+app.register_blueprint(meetings_bp)
+app.register_blueprint(announcements_bp)
+app.register_blueprint(elections_bp)
+app.register_blueprint(election_voting_bp)
+app.register_blueprint(results_bp)
+app.register_blueprint(election_control_bp)
+app.register_blueprint(election_publish_bp)
+app.register_blueprint(candidate_application_bp)
+app.register_blueprint(candidate_status_bp)
+app.register_blueprint(constitution_bp)
+app.register_blueprint(documents_bp)
+app.register_blueprint(notifications_bp)
+app.register_blueprint(activity_api)
+app.register_blueprint(analytics_api)
+app.register_blueprint(system_health_api)
+start_contribution_watcher()
+receipt_email_worker.start()
+announcement_watcher.start()
+meeting_watcher.start()
+weekly_contribution_watcher.start()
+
+
+# ============================================================
+# PAGE ROUTES
+# ============================================================
+
+@app.route("/")
+def home():
+    return send_from_directory(FRONTEND_DIR, "index.html")
+
+
+@app.route("/login")
+def login():
+    return send_from_directory(
+        FRONTEND_DIR / "pages",
+        "login.html"
+    )
+
+
+@app.route("/activate")
+def activate():
+    return send_from_directory(
+        FRONTEND_DIR / "pages",
+        "activate.html"
+    )
+
+
+@app.route("/create-password")
+def create_password():
+    return send_from_directory(
+        FRONTEND_DIR / "pages",
+        "create-password.html"
+    )
+@app.route("/forgot-password")
+def forgot_password():
+    return send_from_directory(
+        FRONTEND_DIR / "pages",
+        "forgot-password.html"
+    )
+
+
+@app.route("/reset-password")
+def reset_password():
+    return send_from_directory(
+        FRONTEND_DIR / "pages",
+        "reset-password.html"
+    )
+
+
+@app.route("/api/forgot-password", methods=["POST"])
+def forgot_password_api():
+
+    data = request.get_json(silent=True) or {}
+
+    member_id = str(data.get("member_id", "")).strip().upper()
+    phone = str(data.get("phone", "")).strip()
+    email = str(data.get("email", "")).strip().lower()
+
+    if not member_id or not phone or not email:
+        return jsonify({
+            "success": False,
+            "message": "Please provide your Membership ID, phone number and email."
+        }), 400
+
+    if not MEMBERS_FILE.exists():
+        return jsonify({
+            "success": False,
+            "message": "TLC member records are unavailable."
+        }), 500
+
+    try:
+
+        workbook = load_workbook(
+            MEMBERS_FILE,
+            read_only=True,
+            data_only=True
+        )
+
+        sheet = workbook["Members"]
+
+        rows = sheet.iter_rows(values_only=True)
+        headers = next(rows)
+
+        headers = [
+            str(h).strip() if h is not None else ""
+            for h in headers
+        ]
+
+        for row in rows:
+
+            member = dict(zip(headers, row))
+
+            stored_id = str(member.get("Member ID") or "").strip().upper()
+
+            stored_phone = str(member.get("Phone Number") or "").strip()
+
+            stored_email = str(
+                member.get("Email Address") or ""
+            ).strip().lower()
+
+            # Normalize Kenyan phone numbers before comparison.
+            def normalize_phone(value):
+                digits = "".join(
+                    ch for ch in str(value)
+                    if ch.isdigit()
+                )
+
+                if digits.startswith("254"):
+                    return "0" + digits[3:]
+
+                if len(digits) == 9:
+                    return "0" + digits
+
+                return digits
+
+            if (
+                stored_id == member_id
+                and normalize_phone(stored_phone) == normalize_phone(phone)
+                and stored_email == email
+            ):
+
+                if not member.get("Password Hash"):
+                    return jsonify({
+                        "success": False,
+                        "message": "This account has not been activated yet. Please use First Time Login."
+                    }), 403
+
+                return jsonify({
+                    "success": True,
+                    "message": "Account verified successfully."
+                })
+
+        return jsonify({
+            "success": False,
+            "message": "The details provided do not match our TLC records."
+        }), 401
+
+    except Exception:
+
+        return jsonify({
+            "success": False,
+            "message": "Unable to verify your TLC account."
+        }), 500
+
+@app.route("/dashboard")
+def dashboard():
+    return send_from_directory(
+        FRONTEND_DIR / "pages",
+        "dashboard.html"
+    )
+
+
+# ============================================================
+# SYSTEM STATUS
+# ============================================================
+
+@app.route("/api/status")
+def status():
+    return jsonify({
+        "system": "The Legacy Circle",
+        "short_name": "TLC",
+        "status": "online"
+    })
+
+
+# ============================================================
+# MEMBER VERIFICATION
+# ============================================================
+
+@app.route("/api/verify-member", methods=["POST"])
+def verify_member():
+
+    data = request.get_json(silent=True) or {}
+
+    member_id = str(data.get("member_id", "")).strip().upper()
+    phone = str(data.get("phone", "")).strip()
+
+    if not member_id or not phone:
+        return jsonify({
+            "success": False,
+            "message": "Please enter your Member ID and registered phone number."
+        }), 400
+
+    if not MEMBERS_FILE.exists():
+        return jsonify({
+            "success": False,
+            "message": "TLC member records are currently unavailable."
+        }), 500
+
+    try:
+
+        workbook = load_workbook(
+            MEMBERS_FILE,
+            read_only=True,
+            data_only=True
+        )
+
+        sheet = workbook["Members"]
+
+        rows = sheet.iter_rows(values_only=True)
+        headers = next(rows)
+
+        headers = [
+            str(header).strip() if header is not None else ""
+            for header in headers
+        ]
+
+        required_columns = [
+            "Member ID",
+            "Full Name",
+            "Phone Number",
+            "Account Status"
+        ]
+
+        missing = [
+            column
+            for column in required_columns
+            if column not in headers
+        ]
+
+        if missing:
+            return jsonify({
+                "success": False,
+                "message": "TLC member spreadsheet is missing required columns."
+            }), 500
+
+        for row in rows:
+
+            member = dict(zip(headers, row))
+
+            spreadsheet_member_id = str(
+                member.get("Member ID") or ""
+            ).strip()
+
+            spreadsheet_phone = str(
+                member.get("Phone Number") or ""
+            ).strip()
+
+            if (
+                spreadsheet_member_id == member_id
+                and spreadsheet_phone == phone
+            ):
+
+                account_status = str(
+                    member.get("Account Status") or ""
+                ).strip().lower()
+
+                if account_status not in ["active", "pending"]:
+                    return jsonify({
+                        "success": False,
+                        "message": "This TLC membership is not eligible for account activation."
+                    }), 403
+
+                # Do not allow an account that already has a password
+                # to enter the first-time activation process again.
+                existing_password = member.get("Password Hash")
+
+                if existing_password:
+                    return jsonify({
+                        "success": False,
+                        "message": "This TLC account has already been activated. Please use Member Login."
+                    }), 409
+
+                return jsonify({
+                    "success": True,
+                    "message": "Member verified successfully.",
+                    "member": {
+                        "member_id": spreadsheet_member_id,
+                        "name": str(member.get("Full Name") or "")
+                    }
+                })
+
+        return jsonify({
+            "success": False,
+            "message": "The Member ID and phone number do not match our TLC records."
+        }), 401
+
+    except Exception:
+        return jsonify({
+            "success": False,
+            "message": "Unable to verify the member record."
+        }), 500
+
+
+# ============================================================
+# ACCOUNT ACTIVATION
+# ============================================================
+
+@app.route("/api/activate-account", methods=["POST"])
+def activate_account():
+
+    data = request.get_json(silent=True) or {}
+
+    member_id = str(data.get("member_id", "")).strip().upper()
+    password = str(data.get("password", ""))
+
+    if not member_id or not password:
+        return jsonify({
+            "success": False,
+            "message": "Member ID and password are required."
+        }), 400
+
+    if len(password) < 8:
+        return jsonify({
+            "success": False,
+            "message": "Password must be at least 8 characters."
+        }), 400
+
+    if not MEMBERS_FILE.exists():
+        return jsonify({
+            "success": False,
+            "message": "TLC member records are currently unavailable."
+        }), 500
+
+    try:
+
+        # Open workbook normally because we need to modify it.
+        workbook = load_workbook(MEMBERS_FILE)
+
+        sheet = workbook["Members"]
+
+        headers = [
+            str(cell.value).strip()
+            if cell.value is not None
+            else ""
+            for cell in sheet[1]
+        ]
+
+        required_columns = [
+            "Member ID",
+            "Password Hash",
+            "Account Status"
+        ]
+
+        missing = [
+            column
+            for column in required_columns
+            if column not in headers
+        ]
+
+        if missing:
+            return jsonify({
+                "success": False,
+                "message": "TLC member spreadsheet is missing required columns."
+            }), 500
+
+        member_id_column = headers.index("Member ID") + 1
+        password_column = headers.index("Password Hash") + 1
+        status_column = headers.index("Account Status") + 1
+
+        for row_number in range(2, sheet.max_row + 1):
+
+            current_member_id = str(
+                sheet.cell(
+                    row=row_number,
+                    column=member_id_column
+                ).value or ""
+            ).strip()
+
+            if current_member_id != member_id:
+                continue
+
+            existing_hash = sheet.cell(
+                row=row_number,
+                column=password_column
+            ).value
+
+            if existing_hash:
+                return jsonify({
+                    "success": False,
+                    "message": "This TLC account has already been activated. Please log in."
+                }), 409
+
+            account_status = str(
+                sheet.cell(
+                    row=row_number,
+                    column=status_column
+                ).value or ""
+            ).strip().lower()
+
+            if account_status not in ["active", "pending"]:
+                return jsonify({
+                    "success": False,
+                    "message": "This member account is not eligible for activation."
+                }), 403
+
+            # Never store the actual password.
+            password_hash = generate_password_hash(
+                password,
+                method="scrypt"
+            )
+
+            sheet.cell(
+                row=row_number,
+                column=password_column
+            ).value = password_hash
+
+            # The account is now activated.
+            sheet.cell(
+                row=row_number,
+                column=status_column
+            ).value = "active"
+
+            workbook.save(MEMBERS_FILE)
+
+            return jsonify({
+                "success": True,
+                "message": "TLC account activated successfully."
+            })
+
+        return jsonify({
+            "success": False,
+            "message": "Member ID was not found."
+        }), 404
+
+    except PermissionError:
+        return jsonify({
+            "success": False,
+            "message": "The member spreadsheet is currently open. Please close it and try again."
+        }), 423
+
+    except Exception:
+        return jsonify({
+            "success": False,
+            "message": "Unable to activate the TLC account."
+        }), 500
+
+
+# ============================================================
+# MEMBER LOGIN
+# ============================================================
+
+@app.route("/api/login", methods=["POST"])
+def member_login():
+
+    data = request.get_json(silent=True) or {}
+
+    member_id = str(data.get("member_id", "")).strip().upper()
+    password = str(data.get("password", ""))
+
+    if not member_id or not password:
+        return jsonify({
+            "success": False,
+            "message": "Please enter your Member ID and password."
+        }), 400
+
+    if not MEMBERS_FILE.exists():
+        return jsonify({
+            "success": False,
+            "message": "TLC member records are currently unavailable."
+        }), 500
+
+    try:
+
+        workbook = load_workbook(
+            MEMBERS_FILE,
+            read_only=True,
+            data_only=True
+        )
+
+        sheet = workbook["Members"]
+
+        rows = sheet.iter_rows(values_only=True)
+        headers = next(rows)
+
+        headers = [
+            str(header).strip()
+            if header is not None
+            else ""
+            for header in headers
+        ]
+
+        for row in rows:
+
+            member = dict(zip(headers, row))
+
+            current_member_id = str(
+                member.get("Member ID") or ""
+            ).strip()
+
+            if current_member_id != member_id:
+                continue
+
+            account_status = str(
+                member.get("Account Status") or ""
+            ).strip().lower()
+
+            password_hash = member.get("Password Hash")
+
+            if not password_hash:
+
+                return jsonify({
+                    "success": False,
+                    "message": "Your account has not been activated yet. Please use First Time Login."
+                }), 403
+
+            if account_status != "active":
+
+                return jsonify({
+                    "success": False,
+                    "message": "Your TLC account is not active."
+                }), 403
+
+            if check_password_hash(password_hash, password):
+
+                start_member_session(
+                    current_member_id,
+                    role="MEMBER"
+                )
+
+                record_activity(
+                    current_member_id,
+                    action="Member Login",
+                    description="Signed in to the TLC Member Portal.",
+                    category="authentication"
+                )
+
+                return jsonify({
+                    "success": True,
+                    "message": "Login successful.",
+                    "member": {
+                        "member_id": current_member_id,
+                        "name": str(
+                            member.get("Full Name") or ""
+                        )
+                    }
+                })
+
+            break
+
+        return jsonify({
+            "success": False,
+            "message": "Invalid Member ID or password."
+        }), 401
+
+    except Exception:
+        return jsonify({
+            "success": False,
+            "message": "Unable to process the login."
+        }), 500
+
+
+# ============================================================
+
+# RESET PASSWORD API
+
+@app.route("/api/reset-password", methods=["POST"])
+def reset_password_api():
+
+    data = request.get_json(silent=True) or {}
+
+    member_id = str(data.get("member_id", "")).strip().upper()
+    password = str(data.get("password", ""))
+
+    if not member_id or not password:
+        return jsonify({
+            "success": False,
+            "message": "Member ID and new password are required."
+        }), 400
+
+    if len(password) < 8:
+        return jsonify({
+            "success": False,
+            "message": "Password must be at least 8 characters."
+        }), 400
+
+    if not MEMBERS_FILE.exists():
+        return jsonify({
+            "success": False,
+            "message": "TLC member records are unavailable."
+        }), 500
+
+    try:
+        workbook = load_workbook(MEMBERS_FILE)
+        sheet = workbook["Members"]
+
+        headers = [
+            str(cell.value).strip()
+            if cell.value is not None
+            else ""
+            for cell in sheet[1]
+        ]
+
+        if "Member ID" not in headers or "Password Hash" not in headers:
+            return jsonify({
+                "success": False,
+                "message": "Required password columns are missing."
+            }), 500
+
+        member_id_column = headers.index("Member ID") + 1
+        password_column = headers.index("Password Hash") + 1
+
+        for row_number in range(2, sheet.max_row + 1):
+
+            stored_id = str(
+                sheet.cell(
+                    row=row_number,
+                    column=member_id_column
+                ).value or ""
+            ).strip()
+
+            if stored_id != member_id:
+                continue
+
+            new_hash = generate_password_hash(
+                password,
+                method="scrypt"
+            )
+
+            sheet.cell(
+                row=row_number,
+                column=password_column
+            ).value = new_hash
+
+            workbook.save(MEMBERS_FILE)
+
+            return jsonify({
+                "success": True,
+                "message": "Password reset successfully."
+            })
+
+        return jsonify({
+            "success": False,
+            "message": "Member ID was not found."
+        }), 404
+
+    except PermissionError:
+        return jsonify({
+            "success": False,
+            "message": "Please close the member spreadsheet and try again."
+        }), 423
+
+    except Exception:
+        return jsonify({
+            "success": False,
+            "message": "Unable to reset the password."
+        }), 500
+
+@app.route("/member/constitution")
+def member_constitution():
+    return send_from_directory(
+        FRONTEND_DIR / "pages" / "member",
+        "constitution.html"
+    )
+
+# START SERVER
+# ============================================================
+
+if __name__ == "__main__":
+
+    app.run(
+        host="127.0.0.1",
+        port=5000,
+        debug=True,
+        use_reloader=False
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

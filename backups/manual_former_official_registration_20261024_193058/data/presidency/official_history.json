@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T19:23:46+03:00",
+  "updated_by": "HISTORY-MIGRATION",
+  "records": [
+    {
+      "key": "CHAIRPERSON",
+      "position_id": "TLC-POS-001",
+      "position": "Chairperson",
+      "order": 1,
+      "name": "Sheela Onyango",
+      "member_id": "TLC/002/2026",
+      "photo_url": "/assets/profile_pictures/TLC_002_2026.png",
+      "term_start": "2026-09-20",
+      "term_end": "2027-09-20",
+      "status": "FORMER",
+      "biography": "",
+      "history_id": "CHAIRPERSON|tlc/002/2026|2026-09-20",
+      "archive_reason": "Recovered from a previous saved official-record backup",
+      "archived_at": "2026-10-24T19:18:44+03:00",
+      "archived_by": "HISTORY-MIGRATION"
+    },
+    {
+      "key": "CHAIRPERSON",
+      "position_id": "TLC-POS-001",
+      "position": "Chairperson",
+      "order": 1,
+      "name": "Sheela Onyango",
+      "member_id": "TLC/002/2026",
+      "photo_url": "/assets/profile_pictures/TLC_002_2026.png",
+      "term_start": "2026-09-20",
+      "term_end": "2027-09-20",
+      "status": "FORMER",
+      "biography": "",
+      "history_id": "CHAIRPERSON|tlc/002/2026|2026-09-20|2027-09-20",
+      "history_type": "PREVIOUS_TERM",
+      "archive_reason": "Previous term recovered from an official-record backup",
+      "archived_at": "2026-10-24T19:23:39+03:00",
+      "archived_by": "HISTORY-MIGRATION"
+    }
+  ]
+}

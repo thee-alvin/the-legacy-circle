@@ -1,0 +1,5201 @@
+[
+  {
+    "id": "c09d8749fd3e4833acf40b8e3a4c00dd",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-09T18:53:58.028358+00:00",
+    "details": {}
+  },
+  {
+    "id": "146fc78c630148d6ae85f0d6864fb830",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-09T19:27:08.709077+00:00",
+    "details": {}
+  },
+  {
+    "id": "db766945040a48ad9b13046118fff668",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-09T21:03:27.578226+00:00",
+    "details": {}
+  },
+  {
+    "id": "d60414677a2843d98a8734473ae694a1",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-09T21:36:24.390202+00:00",
+    "details": {}
+  },
+  {
+    "id": "ea5fe24f987c4bed863211804d8814f2",
+    "member_id": "TLC/001/2026",
+    "action": "Profile Updated",
+    "description": "Your TLC member profile was updated successfully.",
+    "category": "profile",
+    "timestamp": "2026-09-09T21:38:17.631768+00:00",
+    "details": {}
+  },
+  {
+    "id": "aa4ff610469046479de94cc178713844",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-09T21:41:43.817808+00:00",
+    "details": {}
+  },
+  {
+    "id": "d49914b07a9a4af994a1f521836fd752",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-09T21:53:06.241114+00:00",
+    "details": {}
+  },
+  {
+    "id": "e4ca3fb409a240b4bda5c9c2fd91c50d",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-09T21:54:28.568817+00:00",
+    "details": {}
+  },
+  {
+    "id": "370325bf956843c0902e824a22d2f33a",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-09T21:58:15.081542+00:00",
+    "details": {}
+  },
+  {
+    "id": "b8bf218ff7d441e2950988dce27a428f",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-10T08:48:25.395905+00:00",
+    "details": {}
+  },
+  {
+    "id": "dc1b30b8615a491293789f85c3f5b112",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-10T09:20:33.897564+00:00",
+    "details": {}
+  },
+  {
+    "id": "44a49ccb97bd47609ec10146f318495b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T09:28:15.956274+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "6161c9dc414346cd87dd7e6057d80def",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-10T09:28:22.084301+00:00",
+    "details": {
+      "meeting_count": 0
+    }
+  },
+  {
+    "id": "f414ebcf47044acba0363ed9eceda893",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T10:34:26.375944+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "92e04df953244ecc872e05b45a3c00ea",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T10:47:08.130200+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "963dadfbdff84687a56f0c53cf3d0b3a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T10:51:54.138906+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b1a5e257e7df4b61ab7c6be4242e972e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T10:52:04.229598+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "f365f5bf263d4caeb21de83c366463af",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T10:53:00.946689+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d416454e09254e3abae4f63c3a32ecfa",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T10:54:00.353263+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d3eb124d687b4cdc80127b7b5540622b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T14:51:27.192825+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "abe4d58dd6e94e2fb89c6acfbf7f0907",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T14:52:04.095251+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "7a62ab372f804860b1b93cf683217cdb",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T14:56:31.256044+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "482bf1cd8d584b87be70758b923a2714",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T16:17:15.433578+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "4960525b1cca4e8680bdbf7a078863fe",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T16:17:57.987922+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "c7e3533756034af49423c21eca41c45a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T16:20:11.692408+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "54e30fc0840a4e869320cc45638130c0",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T16:20:13.093203+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "018da26b465b49c396b42cc2f399f18c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T16:23:50.521444+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d8653e551a744eb99bf89143acff0246",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T16:24:11.916496+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b37ab6f32cdf40259a7c458c43fd3f34",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-10T16:24:45.297795+00:00",
+    "details": {}
+  },
+  {
+    "id": "e6bebbaff35841af8ba7e2ae34d083e6",
+    "member_id": "TLC/TEST/001",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T16:24:47.249147+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "78cdda6fa58048e6a87d3e4a920be3c4",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-10T16:25:11.351721+00:00",
+    "details": {}
+  },
+  {
+    "id": "8b0e45db636d4598bd4267e8934f100f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T16:25:12.740001+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "eb1c29d0ca14496c900cd3e28aaef02a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T17:32:51.806453+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "8a842dc8ceb64013809fa2d72dc9bc63",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T17:36:00.460548+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "6350fc78483e4b8bb1ef4b4e56774ab3",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T17:42:30.509975+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "546f8a6a92f34dfb884b5fd6acfd0f4e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T17:43:34.950019+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "8feb3f1bdd3e4351b86bd53d7b4f59a8",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-10T17:46:16.645476+00:00",
+    "details": {}
+  },
+  {
+    "id": "08ba19692e5f4dbaa5ee9352703f756d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T17:46:19.815887+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "21c2e15a6ce44f76a91f20e7095c17e3",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-10T17:53:14.773289+00:00",
+    "details": {}
+  },
+  {
+    "id": "57acd1f4916741c3bbf7b31476c2a27d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T17:53:20.108793+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "5ea33fcfc51647659ea6cd27e69fa74d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-10T17:55:08.263057+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "84c314f34ef04569a8ff84060d150191",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T09:34:48.873868+00:00",
+    "details": {}
+  },
+  {
+    "id": "78555b3235d648aa97ea7832e22ac07e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T09:34:52.095203+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "fa9c436a100b40dca68853bdb7214a9b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T09:35:51.631824+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "58dc8278891c4d92be41eacbc631efcb",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T10:10:34.813404+00:00",
+    "details": {}
+  },
+  {
+    "id": "2ec7c477fd274736ae179797c7f197e3",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T10:10:35.455571+00:00",
+    "details": {}
+  },
+  {
+    "id": "27f5ecfc8ae349d78c94cac406f8d319",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T10:10:36.264069+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "df1516bddc434219a1acb35ae4ce223e",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T11:55:15.271457+00:00",
+    "details": {}
+  },
+  {
+    "id": "f4bf45adad5a4d2588cfbe12b22ae007",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T11:55:43.808872+00:00",
+    "details": {}
+  },
+  {
+    "id": "4df8c598bdbe409b9b4447c1bfdc3de3",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T11:58:05.224316+00:00",
+    "details": {}
+  },
+  {
+    "id": "d87d70568cff4ff991f27d0b1b66916c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T11:58:07.542002+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "3df7271798534555823563fc267880a1",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T11:58:24.648282+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "2c00d7d2029c4b3e8ccb710395565033",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T12:08:05.260245+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "5ddb73839a4c46b88158fa8b1ae59798",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T12:08:12.227771+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "cb8e36f748664e1fbd34803e9a1aa174",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T12:20:50.784081+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "9f6e8e3d754c4aa3b73552f397c8b04e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T12:20:58.386554+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "c93ff99f9a344a25a0886c321c0a32d9",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T12:38:35.224569+00:00",
+    "details": {}
+  },
+  {
+    "id": "cc88abe06f194595a30e200733798b58",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T12:38:42.039261+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "4d0af9a3ccc4411f92a4013265311c26",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T12:45:27.243369+00:00",
+    "details": {}
+  },
+  {
+    "id": "a61cbde0af8f4bda80187edef19d8a0e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T12:45:33.253966+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "623310c123364ee9a584eb0bc7e598a7",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T12:49:07.438775+00:00",
+    "details": {}
+  },
+  {
+    "id": "6af1ddb6ac1542708f1a32aadab087db",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T12:49:11.604259+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "be7b5949c49a4db7b31c2e85e4924bf7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T13:09:08.982205+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "a5185529029948a9a631a99f119b85f8",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-11T13:23:30.656936+00:00",
+    "details": {}
+  },
+  {
+    "id": "d84dd9a02a3f4c73839c1ec83dbe285d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T13:23:33.368757+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "0a3b312329ce4f3da6a34ac91fb39d4b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-11T13:40:18.143010+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "00773a6ecd0f4822ae39f6044099814b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-11T13:41:47.223314+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "b7703449e2a14870a78ae9f201a5c68d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-11T13:41:47.419587+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "c0f87dd519e647858374941e7ff309aa",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-11T13:41:47.651198+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "8ef23959a304403fa0314421d19ee972",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T13:41:50.453315+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "061c49b9e653416595ea86e17333609c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T13:46:11.425056+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "4ba1671696da4786b2e102e3a57e179c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:09:08.617555+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "a969bc66076544fa9738f8b9b2007f30",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:09:33.009417+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "7a8467df0c2443b3b1c550237171518a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-11T14:09:42.296853+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "b43ca9a9f2654f0ea1534be7d55a087b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:10:07.522678+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "8cf81e6d70734a17a7f51c583f739a50",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:10:14.096418+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "a1391e48ca15473492e1739caaafece3",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:10:19.173485+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "40b886070bcd4acebe80765e470d1c12",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:10:26.343607+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "1e20e981dc5742feb3f731cf9cf73532",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:10:57.611774+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "38274e5a61e04cb99a9f8d832bce5b37",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:11:51.757180+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "80d6aa983b444749878cbc7c29ebf39b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:13:18.771628+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "6f63b93498004b4eba041c5913c50b97",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:13:28.933652+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "deb43ce9f1c847fca9e8d3712241cef3",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:14:14.586569+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "23e4a76d3e814f54a5fca8333e99f89d",
+    "member_id": "TLC/001/2026",
+    "action": "Document Accessed",
+    "description": "Opened the TLC document 'TLC_Constitution.pdf'.",
+    "category": "document",
+    "timestamp": "2026-09-11T14:14:27.967997+00:00",
+    "details": {
+      "document_id": "",
+      "file_name": "TLC_Constitution.pdf"
+    }
+  },
+  {
+    "id": "0ff06ac926f443eeb62c827773f4d9ea",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:15:49.747348+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "a9a5927b559042f3aa2feef1bd6779fa",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:16:52.506803+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "e20a1a79597d48429a516fec41e954e5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-11T14:16:59.768340+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "a4f289c8b6114c77873bae2ced305f55",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:17:13.439116+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "f7a85850c2804a3093b7b0223f4a2ae3",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:17:15.387226+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "bf819a0cb7ff4456a31d5d3292d417a0",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:17:40.481815+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "0ad178ef28474e3fa55e3b7e84cc524b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:18:33.717207+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "5e77fffccc0a468dae5b8a37a294bcc8",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:19:23.732696+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "596d06592d934bad83e982f300182270",
+    "member_id": "TLC/001/2026",
+    "action": "Profile Updated",
+    "description": "Your TLC member profile was updated successfully.",
+    "category": "profile",
+    "timestamp": "2026-09-11T14:19:50.665243+00:00",
+    "details": {}
+  },
+  {
+    "id": "7099ea7828ff44619c8ffcb0845eb392",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-11T14:19:59.205813+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "701eaec4b34142dd8afb9a5336d4bfbe",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-12T19:49:45.100639+00:00",
+    "details": {}
+  },
+  {
+    "id": "5ea422f7ec744bba81a95d3dbe31245e",
+    "member_id": "TLC/TEST/001",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:49:49.949702+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "c2fe3802dd1b409aa937c5c252f4fd9b",
+    "member_id": "TLC/TEST/001",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:50:09.044987+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "0395e0e135a04c6a91179ebdf4f9649d",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-12T19:50:34.209688+00:00",
+    "details": {}
+  },
+  {
+    "id": "bf20f8e9ef5c490cb6d42732bed52d9f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:50:36.036681+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "f783b686fe9e496ab834c10cd8ef49de",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:50:49.149527+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "859737d17c67465c8e3d17134a6fac78",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:52:37.917719+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "28161d8451bd4c35a05207ac1fa29d0f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:53:39.759918+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "c48bbc481a0a428b918839b73cf65fef",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:55:23.623905+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "e2fef6227bdd4ed3aa592b9f36114752",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:56:26.805321+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "d09c626736b44aeb878df984da7bff14",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:57:52.546335+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "9df74a9523f1402e8272a2ce8450af15",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-12T19:58:44.905539+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "4af52b96ef1b48af97b780802c172272",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T19:59:57.590504+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "cae19b9879914c669c622dda0660c9a6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T20:00:01.230982+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "fec8202967984ee5874652113cd85ab6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T20:01:07.545783+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "963cb73386ed4114abaffae68bc41d2f",
+    "member_id": "TLC/001/2026",
+    "action": "Document Accessed",
+    "description": "Opened the TLC document 'TLC_Constitution.pdf'.",
+    "category": "document",
+    "timestamp": "2026-09-12T20:01:22.821418+00:00",
+    "details": {
+      "document_id": "",
+      "file_name": "TLC_Constitution.pdf"
+    }
+  },
+  {
+    "id": "9b8b2de236894053a293c2e51f67c115",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T20:01:47.059888+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "0c557cb5d4fc40ad8d11ff4c14802db6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T20:03:20.517518+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "d5c4f6b6010f4461b8514aebd95b1197",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T20:03:47.607925+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "1cf235976fd44b598d1eab55a6b264d8",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T20:13:56.975422+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "b26aa96670b0417ea2f2148612caff7d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T20:14:33.992497+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "4223caf435a24d63bd01674cb78c1041",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T20:14:50.639636+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "5e66b294aaa541b88348d316bd1d2cac",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-12T21:09:45.585784+00:00",
+    "details": {}
+  },
+  {
+    "id": "f0fdc8fb3b194f96b4c4385b3001fa56",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T21:09:50.104292+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "17512272e5de4985ae8690cd98aedfa0",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-12T22:00:27.255632+00:00",
+    "details": {}
+  },
+  {
+    "id": "7c44f251ea0744c38fb0f2c636b11b72",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-12T22:00:28.360912+00:00",
+    "details": {}
+  },
+  {
+    "id": "c1a0feb5f7c8419bb16d922320416533",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-12T22:00:31.011386+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "fa365e960a5e4adf8e1bba31af4163eb",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-15T12:21:43.888972+00:00",
+    "details": {}
+  },
+  {
+    "id": "68b70ff4fc0746f686f16d7784ac58b4",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T12:21:57.172926+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "e06b87eee7bc43ea811f4c8be492f867",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T12:22:31.878094+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "5fb32684d41e457db9bf6c8634fcf28d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T12:23:28.065888+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "095528732909471d9eec3c73aa8e3069",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:00:00.826943+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "9cea46772b5a431c9fc9ffb5dd14baa7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:13:02.777118+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "8c6f48153209467583a45ea66b4e2c89",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:13:10.814973+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "8b72b7f1baaf45f785e672ecf0a3c627",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-15T13:19:46.217163+00:00",
+    "details": {}
+  },
+  {
+    "id": "f038c2c93e334febbb3cf389c92190ee",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:19:54.068059+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "8c428490963442b3b132a27157891c53",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:21:16.120545+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "9a44ebf173274519ae66feac404288a6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:21:50.115996+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "f103116af3fb49a1b62dff73eea573b5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:31:47.122660+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "169dbb6733044d2c945e6f9c22614939",
+    "member_id": "TLC/007/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-15T13:46:29.426238+00:00",
+    "details": {}
+  },
+  {
+    "id": "b7a6f7fed3b745af9ae54403af3627d6",
+    "member_id": "TLC/007/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:46:32.215205+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "2c1341a87d46415882db6cab420a3673",
+    "member_id": "TLC/007/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-15T13:48:08.095374+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "f99f92ddacaf495d922d73087f2d4959",
+    "member_id": "TLC/007/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-15T13:54:50.809345+00:00",
+    "details": {}
+  },
+  {
+    "id": "bbb6ffdefd944798add4711d6025fc25",
+    "member_id": "TLC/007/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-15T13:54:53.990303+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "92dc2cbe37524371bd08cafa342f94fa",
+    "member_id": "TLC/007/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-16T13:18:01.522541+00:00",
+    "details": {}
+  },
+  {
+    "id": "470ac342b12145e7a8da0dcf30de092a",
+    "member_id": "TLC/007/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:18:04.757146+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "9bed8fc606254911a942669222d0961c",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-16T13:19:44.678827+00:00",
+    "details": {}
+  },
+  {
+    "id": "933f24e2fe16449ba5a8a832e9e8b6ad",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:19:48.664566+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "f2cb103cd5454c5481f7a0f487540ef2",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-16T13:33:57.932561+00:00",
+    "details": {}
+  },
+  {
+    "id": "efd3a6f653074ffab0fa38cd7f99fd2e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:33:59.411007+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "3334fac320bb417ca6a2f75bdc9b5386",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-16T13:38:48.673533+00:00",
+    "details": {}
+  },
+  {
+    "id": "88757b34661243beb9a46a847b139041",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:38:49.955926+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "ba6ccf1f5bd34767b9efe3acb71d68a5",
+    "member_id": "TLC/007/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-16T13:40:05.062482+00:00",
+    "details": {}
+  },
+  {
+    "id": "f648f7310c7e47368b06d3851f5e7176",
+    "member_id": "TLC/007/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:40:06.208182+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "9e0c3684ed6f4b5e915959fec7d2907b",
+    "member_id": "TLC/007/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:41:09.660109+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "93ac947a1e254a3f9b8aa925241767bc",
+    "member_id": "TLC/007/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:41:32.679194+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "56b5f5908b704385a062232557d8b87c",
+    "member_id": "TLC/007/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:55:49.992969+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "dfcb2014ac844d5abc12988deffcf69b",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-16T13:56:11.398257+00:00",
+    "details": {}
+  },
+  {
+    "id": "3929952eef984fda91585682f3032328",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T13:56:13.125065+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "88f8322688e24adcb1c5f8590e3bf630",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T14:00:15.352292+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "4daa821dd8a4412d9c481f51cc3d4092",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T14:00:33.615493+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "6340e710bbb84971b8866966f0bf43a4",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-16T14:12:51.937305+00:00",
+    "details": {}
+  },
+  {
+    "id": "8dd27535238a41d8bea5d8e9487d1011",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T14:12:53.791162+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "06580983cf2d442f9cd3ecec950691e7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-16T14:15:40.670031+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "010c46fae3bc4a64b9f24114aa37508d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T14:16:22.951276+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "f8480e25f0ef471781dddc078f39d128",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-16T14:17:08.601397+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "6aa9d338504f410482e9c5950f7bc050",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T07:38:34.527922+00:00",
+    "details": {}
+  },
+  {
+    "id": "03f9b15e13b74d36ab2498fcdc956e2a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T07:38:36.009276+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "2d1be46f1bca40938cd5f3638bbdf304",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T08:23:07.649831+00:00",
+    "details": {}
+  },
+  {
+    "id": "cecfd708d4f84252859ace5a9332f69a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T08:23:08.826326+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "ce1b4fc2d6e84aef8fe8c3b1d752f085",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T08:50:02.428964+00:00",
+    "details": {}
+  },
+  {
+    "id": "e87998b7e45d49a188e093a8072785a1",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T08:50:03.746405+00:00",
+    "details": {}
+  },
+  {
+    "id": "cabbd04b1acd4c179baaa8403da2f13a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T08:50:13.950747+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "f0c9c7e829184bc68bfc5f3a21b462ef",
+    "member_id": "TLC/004/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T08:50:42.587980+00:00",
+    "details": {}
+  },
+  {
+    "id": "82ebdcd4ad2742f18f198d2f547a568f",
+    "member_id": "TLC/004/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T08:50:45.979746+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "b2ba2e8d029542a8a5516a2b34bf1112",
+    "member_id": "TLC/003/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T08:54:59.145324+00:00",
+    "details": {}
+  },
+  {
+    "id": "90de176b2c1d410ea6d29dd409ec8fc7",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T08:55:02.609893+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "1ec199d05d294bbcb4b63c254c729a54",
+    "member_id": "TLC/003/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T08:55:14.840857+00:00",
+    "details": {}
+  },
+  {
+    "id": "53df72e5d0a94684a8badf903b8600fa",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T08:55:17.211314+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "fc95d613d34443658f48858f185a16f1",
+    "member_id": "TLC/004/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-17T08:55:31.315204+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "f74a266df6af43b0b03e6332d0b07b6b",
+    "member_id": "TLC/004/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T08:55:43.625020+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "46d0378fc6ce4dda90ff5bd7ec3d85ee",
+    "member_id": "TLC/004/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T08:56:10.068196+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "7aa55ea1d260455f84877008790fbe8f",
+    "member_id": "TLC/003/2026",
+    "action": "Profile Updated",
+    "description": "Your TLC member profile was updated successfully.",
+    "category": "profile",
+    "timestamp": "2026-09-17T08:57:17.605441+00:00",
+    "details": {}
+  },
+  {
+    "id": "5dff9ad961004122b8328e9a9cf79156",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T08:57:25.796309+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "d93f9e3838404aacaceae3c10ab22946",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-17T09:00:33.117760+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "e22b2e9a79584638b08459591b9dae71",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T09:02:17.448093+00:00",
+    "details": {}
+  },
+  {
+    "id": "8d45f64551e3400c80f0e4f8d9d8d8d7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T09:02:21.151904+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "cbb8316833724cf0a53637f7e1997e7b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T09:05:08.720536+00:00",
+    "details": {
+      "announcement_count": 2
+    }
+  },
+  {
+    "id": "35c5a9ef084a417c85e9ca0b7fc26ccb",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T21:01:18.980522+00:00",
+    "details": {}
+  },
+  {
+    "id": "4e575264956d40f3828557c73e4df459",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T21:01:21.901958+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "297dec57e2fd463491854d03dccb68f2",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T21:20:40.831924+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "434563ffb03144ba971b7e16edd63d0b",
+    "member_id": "TLC/003/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T21:23:40.523696+00:00",
+    "details": {}
+  },
+  {
+    "id": "2ad459c341254fff811fc5acc50a47b6",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T21:23:41.936444+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "edd53a2634104e809244c27a8c4a88a7",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T21:24:04.965930+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "ffce2f8ea636487c912750274766b4cb",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T21:32:25.312438+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "22654fb918b8404fafc7107175758023",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-17T21:32:49.902511+00:00",
+    "details": {}
+  },
+  {
+    "id": "c7969d044c4442afa7a97baaf7195a9b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T21:32:51.023695+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "c415ac5f6e2149258524e1693b7c214b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T21:32:59.390198+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d6a2bea19f60475fae554a865fc572d3",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-17T21:33:17.832090+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b09ce2df8c5b4d5d8777b3ed918eb909",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-24T09:19:08.555872+00:00",
+    "details": {}
+  },
+  {
+    "id": "6ee41d12400645ef8038eb851e0b61ae",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-24T09:19:09.851996+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "2fb5820ceef44b2c9ab137825388657e",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-24T09:47:47.277000+00:00",
+    "details": {}
+  },
+  {
+    "id": "757c93bc6fbf4aaf99466eac93673baf",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-24T09:47:48.689294+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "11e6cf589aa4461d9d10e005d26490ee",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-24T09:56:44.646602+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "aef61263a4b44ccca42123c535db479a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Meetings",
+    "description": "Viewed the TLC meetings.",
+    "category": "meetings",
+    "timestamp": "2026-09-24T09:57:33.932182+00:00",
+    "details": {
+      "meeting_count": 1
+    }
+  },
+  {
+    "id": "21d56f8068564d16819f61772116a15e",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-25T09:35:48.237978+00:00",
+    "details": {}
+  },
+  {
+    "id": "118a86c3433f478b8b929d261031335c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T09:35:52.235861+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "5c58db5b89734c2da1a7e55e247872c8",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T09:36:33.483679+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "c8dce45734d249a7a5da8194fc9d0a5a",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-25T10:18:56.753240+00:00",
+    "details": {}
+  },
+  {
+    "id": "7dab932e8358491483890f573eb4302c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T10:18:59.726029+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "3ceef18e7e674f4e9e44ee7cf9ddad57",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:04:34.521529+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "5dbeb98ee7f144e58d93053b84e9b4e9",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:04:42.027645+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "d0addda4371a429e9fa0bdf95967145d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:15:41.871537+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "eef8d0164e374e0ba040be1a82e6690c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:15:45.394158+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "394803a275d448cab326bbb7532e2a04",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:16:00.835198+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "3f60add7070645e78713942b4b1982f0",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:17:05.791784+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "3e7304f9566e42a9a1d56f1b89832abc",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:34:43.330445+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "2706d9df878f4dae975583e4c1eda7f0",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:34:50.634732+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "9a1cc874343f4d5189cb6b7f6fa36116",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:49:32.101970+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "3326476ac1dd446d8cf92c9bf7d1d850",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:49:36.876526+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "8c99a45d43a44487b91552d543c087ad",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:49:38.636826+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "1bfd2fe5ed4440e2afd4cc08eed491b0",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:49:43.668048+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "3e13f5120a4341668628d39a12007ede",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T11:59:04.736738+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "bf8c615651d3466ab6db5c3be6b0ef1a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T12:01:28.147093+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "ac2021273528467892f1770eb99a435c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T12:17:00.763447+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "bc55a177673c420e9a4d7d352819dea1",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-25T13:02:58.760497+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "eb8fbeb3009d412cbda591071c925915",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-26T13:27:06.598340+00:00",
+    "details": {}
+  },
+  {
+    "id": "fd13fab52770434181feedb9472c2c1d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T13:27:08.407846+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "67942f21c5504972828093c335c500c7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T13:32:03.314159+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "693e70d8b78049f7a7bed9b0583fadec",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T13:33:01.268291+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "7a1f65bc4b9d4c44aedc075c115cfc73",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T13:38:53.099627+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "debf3707e7724672a18bc57abcd17b34",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T13:39:28.440589+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "e3d27e71794e4242ae31337591a3ad15",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T13:48:42.127523+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "45a8b8c1ff354e60ab247c43fbc22072",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T13:48:45.799208+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "b8e45a3ecd04482888250e4b5a5f7ff9",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T14:27:20.040943+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "b11d8b8d061a4b7098311974ce5c547f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T14:27:25.843466+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "a699338d815149a1b03ed00dc1e2585a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T14:36:45.199476+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "0379fb1bee0e4e2fbeb83e3b870eecc5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T14:41:42.014702+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "eac62775b0c34fc1affd5f750dfcd776",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T14:43:21.697093+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "a201c73843494ec89ba2bb684978e11a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T14:43:25.435711+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "c8ca7e7afe7848a8abf6d8eb292f88b1",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:00:54.551837+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "7daa65e5ac484e50ace1f1bb3549f703",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-26T15:24:15.336126+00:00",
+    "details": {}
+  },
+  {
+    "id": "9a599746428c44dc9cd7c112e5a720f5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:24:16.824384+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "2f07b59361f64fcd9f0f5d0b5a072005",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:24:20.405380+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "a3e2cbd93bae492ba2fa733752cc5e5f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:29:08.618656+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "e85d75653d324963acd5550f7289d954",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:30:52.723968+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "466375433d20440192dc8c39850f41c7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:30:53.752597+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "3d832ae489ec4b03b51b012523c86464",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:37:40.931941+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "715a57cdf31947b0b607cbc3b855e86c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:37:43.480073+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "c3bfff2e66874e0aa377612257c59180",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:37:44.833804+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "2688fdde0fcd421097786e5685ddd959",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T15:37:46.745198+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "a0c28f2082cb4d27bf4aaed019f9bdf0",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-26T20:30:17.237355+00:00",
+    "details": {}
+  },
+  {
+    "id": "d1640cbc365a42f496fb0555100d8d2b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T20:30:18.811925+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "5a5005237985473096dfd81287d9eab5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T20:30:44.172591+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "3a0a8c23e10b41b1a5833356d77824b6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T20:36:21.628557+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "77e778928e7c4cda9cfc5a93f84fb972",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T20:38:17.303995+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "f326563ef41243f1a607af71f91200d6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T20:55:38.254577+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "63f1eef7119b43b0b72beb8c8bc879b2",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:00:51.990967+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "8417986f41a245c68b3f10902b9a83dc",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:03:24.879471+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "a225e2cb717e452e8ec52770da9906f6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:04:47.653663+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "3c497c6318b542a789e7e106edae6afd",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:13:12.054988+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "dddcf3e26f4a406c8be01d10c1c24380",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:13:13.668839+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "da09e6703e7a4389accede531c066a5a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:13:15.205304+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "9b86c7a437eb4c61b6a2bf2e7b12e8bf",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:15:52.889765+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "930a26e5789145a78a24058ca28d71dd",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:17:36.739362+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "8f1f7a038aca4b188e048dd24df898c4",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:31:35.837479+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "421f9528b2af475abb8a73872f5b327c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:37:27.165093+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "24bcd726639941589d287e531f94d0dc",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:39:53.164223+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "d7fbee4fd2624d57a52a9b334bad7c8f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:43:43.628010+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "a7374ba8763d4fa09026af8d38ccfe65",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:44:24.813116+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "1fbd7a286c83403aaaab2b2956c7db0e",
+    "member_id": "TLC/003/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-26T21:45:07.703798+00:00",
+    "details": {}
+  },
+  {
+    "id": "11ca9197adf24e85bccba406b4f01d33",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:45:09.025140+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "b0b70d9ef1524283a7a93d20f8956997",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:46:01.537504+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "5948f92e4efb4d55bdf8cd1c8f1c6e44",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:46:47.667858+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "5c91f4fa90bf4b4ba1753d6b4b64117e",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:47:35.321686+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "05b619d923454ed08c8d8d3bc673dadb",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-26T21:48:02.427441+00:00",
+    "details": {}
+  },
+  {
+    "id": "0297263a10834ac9ab2f04017574f79a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-26T21:48:03.528607+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "52796e812ea3452eb6c4ca6c6b71f76c",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-09-30T10:15:11.319718+00:00",
+    "details": {}
+  },
+  {
+    "id": "3ad61511c9e04e8da69c7dd4362948f4",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-30T10:15:13.080603+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "04019f9dd2be46d597ce598313ae4e3e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-30T10:16:28.013472+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "bc7aec8bde1d42ee85a5319ccfcfc24a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-09-30T10:19:48.782428+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "dbe08ed248aa4681a7135fbbd52552ca",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-01T07:42:18.346074+00:00",
+    "details": {}
+  },
+  {
+    "id": "3ba0df235e584bfaadf3bfe1520f27e0",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T07:42:26.094269+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "67f343a9672a4ed79f74a3e1b725c241",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T07:43:59.156550+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "c96222b68efc41a4aa5ebf7a0298e9fe",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T08:41:38.730302+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "d52cd822898d438b8846c152eafaad9f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T08:41:43.145819+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "d53118e4b995475d90831a6b50c921e8",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T08:42:26.656446+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "ac1a5437c1c443249c8f831fbcdb85b2",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T08:53:16.604222+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "0a722372640c4236b72ac72f6b02d09c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T08:54:40.464468+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "9b1c6ca42ac84e5883671e071fa5423e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T09:01:07.297109+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "d9af9750cdb14d6aad384c8d061fb026",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T09:03:18.004734+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "cfe22121cad04135bd5f75c329fe4c77",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T09:03:27.047740+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "691aca5e7b9f4e12a8e2c7f30bad4040",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T09:03:30.317753+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "c5c9382f382b43b0820f91ccb9eb721b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T09:12:04.655042+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "147995f830a0479d9b1542c55448cb34",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T09:27:47.748574+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "8d8e9393e47d4e2dbdbdb26cc85ec191",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:02:37.815339+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "210531e4a19b480080822a592688b05e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:02:56.827630+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "9a84a296485e4036b6d0e17d49ef2ded",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:03:09.065498+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "2a2bc6fb90a14737804ca8377a2e8565",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:03:19.574677+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "7a24476203994bf68608ee1dad9ba195",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:10:51.078546+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "9eb7cdc0242343888a58ca80aabb43e9",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-01T10:15:34.438423+00:00",
+    "details": {}
+  },
+  {
+    "id": "1ee11879e4a04e6eb4d6bb37d4019822",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:15:38.250901+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "08cb88a5c4a94433bb94b3b7224b8d3e",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-01T10:45:37.854081+00:00",
+    "details": {}
+  },
+  {
+    "id": "b94c94cf4e084abd91a760f7424743e5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:45:47.152212+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "4acfaa4432b94051ae74d951f2bd7508",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:46:07.182506+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "cd010b179894436aa00bfe95ae7df799",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:47:36.817531+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "3267adca98d54a2ebc1aabea8a3cb9a0",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:48:53.745036+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "a2be1f41a1e1479b9c1dcd0ddcdaeca9",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:52:59.961879+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "317b44ef74324538bce46680c1b12d7f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:53:08.029268+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "c63979e269f9486f837e0aee477c6035",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-01T10:56:00.203723+00:00",
+    "details": {}
+  },
+  {
+    "id": "e81fe03d41474c539d01f5ef51923e07",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:56:05.020431+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "4b5d8379581640c1b98cdffcdb6ae18d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:56:08.351071+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d66d39e4582c4cef914d5372d8ddb4e9",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:33.242600+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "9a641eb428af4569ac245ef1e5891f6b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:47.097326+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "97e11f36d7f04728b0b7320d539feba6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:48.326883+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "dce33dce543341d6bc66fb2410b4ee0b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:49.135169+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "abaa42b001c6421eb04be270389f69e9",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:49.750631+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "5d8d813bdd094d45bac86d1c24cb6011",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:50.340008+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "e3376eb4bbf34b0997402dba0d5a3b9e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:50.619636+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "cf45bdd7e8ae4e68834939f420dbb1ed",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:51.015209+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "7acd0013d79345e8829ffdd8ec866b46",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T10:58:51.381367+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "f92d519cc92d4397b5528bb2c65f7bc4",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T11:00:52.186218+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "83a7e752b7b648b8879161a8b883572c",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-01T17:59:59.861483+00:00",
+    "details": {}
+  },
+  {
+    "id": "f0358f0de531448c949c1650fa61315c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:00:04.987654+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "6a1eac6ae5ae40de949ed99d3bd565f1",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:06:05.675845+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "49feeb6f7d954f378ab21d56010e887c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:06:13.150802+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "bfa66e70f44640d1a36f5efa438146b8",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:06:34.525336+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "73c56a8fd6c64076a1271c6095bd7363",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:23:02.250184+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d398299f30214b5885216e2a42982f4b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:39:27.534636+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "ae613e2d13a64a9a9f556efcc761755c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:39:53.210907+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "440471e0c1804215b286c65e3ea05cfc",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:52:44.767129+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "048ce81be20843fc8ae78b2c9ac79eb3",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-01T18:53:09.034880+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "17f4b8fd69554b1287fa0ebfbfeb989f",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-05T13:40:04.287603+00:00",
+    "details": {}
+  },
+  {
+    "id": "1dba98f7fd114727af0767501a9a87c6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-05T13:40:07.298477+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b66f49b4f2cd4c08b4b0c5e837dc3276",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-05T13:44:33.382825+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "a4bcd87f33924d618b98368ad3859377",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-05T13:47:01.247203+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "399151dbb4284d1a94c0193969428d12",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-05T13:47:13.244636+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "c3426d3fbc804a91a81c659808c3f061",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-05T13:47:50.754893+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "1500fb5b53fb4aee95079dd9ab5e698c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-05T13:48:58.331055+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "efd3d0ffc6c24eebadc464df0294b055",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-09T16:33:45.890417+00:00",
+    "details": {}
+  },
+  {
+    "id": "2d54c3283b7447c2a03b0f02ddd03cb5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-09T16:33:47.403131+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b42096ec96a8424db34ecaa700751ba6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-09T16:35:09.098143+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "4859ed8ebe8f455985f468d945763b6f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-09T16:35:19.064094+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "28d9f7c73ea54754a8e86201807feb08",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-09T16:36:16.474365+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "04cdfde84fc24f2389327a2a6880fc18",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-09T16:39:34.587371+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "fe3cd6fc50884f9ea4841eb501579e77",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-09T16:59:00.538836+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "2a54bb91122c44ddb297ad4f408d6f0f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-09T16:59:32.472562+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "10fb0cf6b64a4c719514ac1f2e74cba6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-09T17:21:02.665041+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "51a57235f595458fa57a92a209faeebf",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-11T10:12:39.046566+00:00",
+    "details": {}
+  },
+  {
+    "id": "25de7139fac648c3be0291842b7d2c44",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-11T10:12:41.407720+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "90a5ad120a4f4bcf87a735f3ebdbb5bc",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-11T10:16:25.082190+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "77a540b94eb74fdc84e7901cee0402db",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-11T10:16:38.582306+00:00",
+    "details": {}
+  },
+  {
+    "id": "01a8d0b44861420b8262e12e38bcc2c6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-11T10:16:40.810673+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "09f08f14847549e58e41b40bf085ed71",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-11T10:17:37.609852+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "4ca15a096b214d38a62343dcc96b6404",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-16T15:41:46.041132+00:00",
+    "details": {}
+  },
+  {
+    "id": "bcc89e4f8e764269bae04153f65255a1",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-16T15:41:47.742675+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "a60f5ba984bc4201859abec00aac8694",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-16T16:40:54.448450+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "952b511fef8a48bbb62b745d27dd5204",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T13:06:46.169517+00:00",
+    "details": {}
+  },
+  {
+    "id": "a0a9c147b4f242ccb2601d7af8a60ed7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T13:06:52.236826+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "8fbf1ffdf8cd4e0c8374eda497956ce7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T13:30:48.348028+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "f1fb5862085b496a9dcb52a897ed3027",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T15:33:37.338917+00:00",
+    "details": {}
+  },
+  {
+    "id": "e73f4a375c914d54bec4d5811321e2ce",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T15:33:40.504747+00:00",
+    "details": {}
+  },
+  {
+    "id": "13beb1d92a6e42b1bee597a56d162bab",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T15:35:44.716807+00:00",
+    "details": {}
+  },
+  {
+    "id": "39a84fa3673246bcbd495d0414ca0279",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T15:50:34.034284+00:00",
+    "details": {}
+  },
+  {
+    "id": "39ac122f1a4e4696a9baacf7e41061d0",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T15:50:41.752032+00:00",
+    "details": {}
+  },
+  {
+    "id": "755882a2cf7146de9ae82543a57eeac0",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T16:56:04.784978+00:00",
+    "details": {}
+  },
+  {
+    "id": "86a3ab5969284b3b92b1bafb54e34ca4",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T16:56:06.850512+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "3d6aaee6c55d40b0b1f2c91c6ddbf84d",
+    "member_id": "TLC/003/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:35:21.278156+00:00",
+    "details": {}
+  },
+  {
+    "id": "5b71c14bf9014753b0d91f00991070ab",
+    "member_id": "TLC/003/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:35:23.328302+00:00",
+    "details": {}
+  },
+  {
+    "id": "88e75f0999db4809b9d779dc7aa2c856",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:35:24.161179+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "828e4247e29342b2b229143f424ba760",
+    "member_id": "TLC/003/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:35:36.199093+00:00",
+    "details": {}
+  },
+  {
+    "id": "2d72755391334ebb90a3e28748386cad",
+    "member_id": "TLC/003/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:35:39.257658+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "bd5fc61ad9b4435aa69fcb4f909112a0",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:35:45.437790+00:00",
+    "details": {}
+  },
+  {
+    "id": "d4d7aa7551e84daba094662d8210186b",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:35:46.591807+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "a4d182cf1c9246cfacf42c9f5f5b9b3d",
+    "member_id": "TLC/002/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:36:32.531434+00:00",
+    "details": {}
+  },
+  {
+    "id": "7590fc1356c64cb0b48cc19069ff989a",
+    "member_id": "TLC/002/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:36:35.114922+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "c5e78cc2a6a341f6b4fc2598aa673fc0",
+    "member_id": "TLC/003/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:36:49.177960+00:00",
+    "details": {}
+  },
+  {
+    "id": "e5e662b16d7f4ca7904543b9b22ba87d",
+    "member_id": "TLC/002/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:37:47.081359+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "5e393ed3f83e4ef4b9dab168e02dd6bf",
+    "member_id": "TLC/002/2026",
+    "action": "Profile Updated",
+    "description": "Your TLC member profile was updated successfully.",
+    "category": "profile",
+    "timestamp": "2026-10-20T17:40:15.310419+00:00",
+    "details": {}
+  },
+  {
+    "id": "4069c274721341e0aac03ddefd0d11d0",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:40:17.511835+00:00",
+    "details": {}
+  },
+  {
+    "id": "f96a5c28d9274c1dacdc9f8631c72d6d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:40:20.047574+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d26cf9d796904c568f1861a62da71972",
+    "member_id": "TLC/002/2026",
+    "action": "Profile Updated",
+    "description": "Your TLC member profile was updated successfully.",
+    "category": "profile",
+    "timestamp": "2026-10-20T17:40:48.842848+00:00",
+    "details": {}
+  },
+  {
+    "id": "5c3f9783bcb54ae7a462baa075ebd71d",
+    "member_id": "TLC/002/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:41:23.705544+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b71e6340676747a680c29695c843243d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:41:45.906835+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "e8f370e16b08425789531d4265630902",
+    "member_id": "TLC/004/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:44:23.005722+00:00",
+    "details": {}
+  },
+  {
+    "id": "b16e7450e6f84af788250332f2e5f6f6",
+    "member_id": "TLC/004/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:44:25.555868+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "7b2b15f09d644508aed0dd3dec3180c9",
+    "member_id": "TLC/004/2026",
+    "action": "Profile Updated",
+    "description": "Your TLC member profile was updated successfully.",
+    "category": "profile",
+    "timestamp": "2026-10-20T17:45:32.672668+00:00",
+    "details": {}
+  },
+  {
+    "id": "f657a74322854cb19fe97630cfff8261",
+    "member_id": "TLC/002/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T17:48:06.712124+00:00",
+    "details": {}
+  },
+  {
+    "id": "11d35cf58ce546aaa55aa189a3731f39",
+    "member_id": "TLC/002/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:48:09.609881+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "385cfea556b7477c83120453c7c52451",
+    "member_id": "TLC/002/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:48:23.237813+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b67fdcf2ba394f478925528fe4b0ca2f",
+    "member_id": "TLC/004/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T17:49:08.721148+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "704596f85de340b49a237a919219ed50",
+    "member_id": "TLC/005/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-20T18:57:24.798812+00:00",
+    "details": {}
+  },
+  {
+    "id": "5f40bb9220324088b59d7bf8eb62d4f1",
+    "member_id": "TLC/005/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T18:57:27.883758+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "509b56d040a94dad895fff42856c3ccf",
+    "member_id": "TLC/005/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-20T19:00:53.389023+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "864a95027b4c42d3a5dd2176735a1935",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-23T11:14:01.508798+00:00",
+    "details": {}
+  },
+  {
+    "id": "e897631e3eac42f7998a2a5a42938c32",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-23T11:14:20.913446+00:00",
+    "details": {}
+  },
+  {
+    "id": "d6bd5bc838014985b694a97f43db63c5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T11:14:22.703932+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "96d9ba5e62fc41b5bd3ec688a29c234b",
+    "member_id": "TLC/005/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-23T11:29:32.759522+00:00",
+    "details": {}
+  },
+  {
+    "id": "ddbdd1380bd0476597ed4d31aaa082d0",
+    "member_id": "TLC/005/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T11:29:34.181108+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b10ae4c373d74ab2ac7a72f1424d07c5",
+    "member_id": "TLC/005/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T11:31:21.324996+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b8c972bc6fe742b9b2a922b69706009e",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-23T14:37:45.181693+00:00",
+    "details": {}
+  },
+  {
+    "id": "8a5c4f792b354ec5958b4bfdb000e631",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T14:37:49.157553+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "245ac5e456c243c0ac6d7d3be818a30c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T14:47:07.112781+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "9e9b277ac167486d9f25c200ebd292da",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T14:47:12.417470+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "b995b7ae07f94dddae3486603fbc0e8a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T14:52:17.606921+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "31f3986f861e4b2d886d8a94bef435eb",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-23T14:55:20.183759+00:00",
+    "details": {}
+  },
+  {
+    "id": "863feb8486ed4af8a38bf41898e9856a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T14:55:28.579322+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "1b201d133c5041d0afd72289ec13b0d1",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T14:56:59.177405+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "0ae4654c7c004ec3b6bd2b99b99dde75",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-23T17:49:29.348936+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "642e7362130b40d4bf5687874bd18fa4",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-24T13:50:06.847301+00:00",
+    "details": {}
+  },
+  {
+    "id": "cc3404d16f124d22947aea0f20656868",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-24T13:50:15.419199+00:00",
+    "details": {}
+  },
+  {
+    "id": "13fe179532cd41f38f421798e1de44f1",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T13:50:16.646574+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "37718aa5e0b14eb7a6dae633b9937283",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T13:58:51.595157+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "8f130429207c49d4b99d09b704aaccf1",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T14:14:26.391730+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "fb7e28f97f48460a8840d98754408dfa",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T14:15:37.165078+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "70318d9be699455a91d94f7836f49c97",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T14:21:54.575314+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "74b48741fe854ad4b9a4005e19b28118",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T14:25:40.469914+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "798a66103a1643b7acf5959c483d00fc",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T14:26:31.561390+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "1bb6e0e11b7341ca833202a42577e9f3",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T14:28:59.923513+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "4443657d7cc74398af3e20fd7ee05e37",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T14:33:17.101554+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "9de59b58119d480081893bb8807f80f4",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T15:03:39.737137+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "67376f5a35a74c7791a054ec06645e1c",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-24T15:04:23.302687+00:00",
+    "details": {}
+  },
+  {
+    "id": "5973e32d3ef342f482e47d8ab70d9799",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-24T15:04:23.314671+00:00",
+    "details": {}
+  },
+  {
+    "id": "189402b6da7b487cbfa11fa02a3a06df",
+    "member_id": "TLC/TEST/001",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T15:04:36.277080+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "1a4c21a871ae46c6b17d8c7fd1313db4",
+    "member_id": "TLC/TEST/001",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T15:12:33.103354+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "6a29df91f7894c10951f69aefc295434",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-24T15:13:10.888205+00:00",
+    "details": {}
+  },
+  {
+    "id": "c7f25712c7ba48ab8b5c715e68c1de73",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T15:13:25.400575+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "e3c85bdda1014f7dbe6c925183d15958",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T16:39:39.252191+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "79c58a0430b74cbea2caf8a142258fdd",
+    "member_id": "TLC/TEST/001",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-24T16:40:20.168793+00:00",
+    "details": {}
+  },
+  {
+    "id": "2442999e8edb4d1ca7f2efdaa669ab50",
+    "member_id": "TLC/TEST/001",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T16:40:21.650535+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "fa26e7e5142046c2aa7b7eb819936817",
+    "member_id": "TLC/TEST/001",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T17:11:02.637310+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "22d4f4552e0348e1910e48283643acd1",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-24T17:11:22.479623+00:00",
+    "details": {}
+  },
+  {
+    "id": "b41309ba893046acbf493aad4e2a6efd",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T17:11:23.736173+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "ad8efb0cd795465e9a23251a3d4b8fbc",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T17:13:22.505439+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "2c86fd2940914106b304d680e9c112a6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T17:52:20.400568+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "ec48e6fcfaf84ebdab665df92fc6882c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T18:03:07.748722+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "40d6430ef5ac4df99b9c21445d5da1bf",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T18:07:11.325238+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "c2752a9a97b7432c91dbfb2b6526fe47",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T18:10:39.279591+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "6cb9e5a55a6149508daec744217f362f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T18:17:28.576704+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "7505bb119bca47668e94fa50ba246c88",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T18:23:43.329752+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "02435229c50b4f17922192ae91f910fd",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T18:35:10.011189+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "cadc5826596e4a35a90eaaf17985e030",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T19:38:25.134715+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "64361458c24b4dbb94277c7878492b22",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T20:48:06.396069+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "a4c929f84185465784951ba0a861f41e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-24T20:48:29.005941+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "87806c7638f5467bb6b2d511cf40bf19",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-25T19:07:38.840141+00:00",
+    "details": {}
+  },
+  {
+    "id": "1b0ef05e1da74f9abf242706abbcb4bb",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T19:07:42.957940+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "22c0cf736f7f430fa32090f7f8114dbb",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T19:45:07.872709+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "043e4a41a1804275a8936e960d6b620c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T20:37:59.969142+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "85f7b422cf83473f926aab329cc824b6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T20:39:31.446353+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "f1ef3958494b4dfa9d52fd2dc120102d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T20:42:20.049685+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "a81cf456e3154fbf9af889cdc32f5b04",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T20:43:29.947642+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "1cdd7eb5c11743d996b02d43e8122196",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T20:44:56.300377+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "23908deff68346cf962728af8f1aae4e",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T20:46:24.048996+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "2b80949794ff425180df31b562412a83",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T21:00:43.519717+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "62838694ef7345ab828b70534534602f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T21:04:39.555918+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "456e3c4245c1497d9d41ca3100cdee7c",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-25T21:08:26.664116+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "d1374aee01244ab9a07cc31481046bcf",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T21:08:28.357959+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "f581f4858401400ba297db962c63a664",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T21:11:38.024499+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "9c2586ab92af437988363e19bc79a4bd",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-25T21:11:38.102658+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "320d8b51e2c94b48a2b2aa318e1b0d30",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-25T21:12:12.840648+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "a3e2385f8c804bd1b2a1d2f7dfb2bcb5",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-25T21:12:13.148597+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "969cfae0f1d6409ba1056e759724b2fd",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-30T13:08:34.772434+00:00",
+    "details": {}
+  },
+  {
+    "id": "8b496432651d48f7818d2ede70c23f5f",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T13:08:36.790460+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "92b01835d8194d0ca16c45c674d63fa6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T13:08:36.998622+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d795bbbd2e604042adf567b30b7fd762",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T13:10:56.829308+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "b89d2d1f283d4433805cb1b7107f8c30",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T13:10:56.959141+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "8fbca669076b4d79b5ddfb97cb8109f4",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T13:19:56.417915+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "f09e4fc083854e239890fb46b19073c6",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T13:19:56.419246+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "d3fd84973a7e47bbbf341f2a69fb065d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T13:20:32.496382+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "5277fcc215be4f80a7eb2bba0ab8f830",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T13:20:32.693103+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "6aaa49d8e413476e86b7209498e0094a",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T13:20:49.604608+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "477990e2504749c28ca573af7350b84d",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T13:20:49.802407+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "dd3ac2335e7041c69cf0c52028bf426d",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-30T13:33:57.909708+00:00",
+    "details": {}
+  },
+  {
+    "id": "945baf55fe504083bf2ae8156c9d5809",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T13:34:04.542977+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "dbf1ea14fc1a489db63b6b38e8f264aa",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T13:34:04.907072+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "e2276cf6bbc44f1e94c341e7059f7cff",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T13:35:19.806559+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "ddb9069fdd8d4ca88a64b889da6813af",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T13:35:19.827099+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "1c76a1a39e754e86a8129de8530f3609",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T13:36:00.894107+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "25144c3961294f7a84e26a0ee466a5f7",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T13:36:01.012555+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "fd6c327f1018414ca8a107ad0ec31e08",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-10-30T15:06:59.543856+00:00",
+    "details": {}
+  },
+  {
+    "id": "90891e974ebf41c0b93f92de05523343",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-10-30T15:07:08.802578+00:00",
+    "details": {
+      "announcement_count": 1
+    }
+  },
+  {
+    "id": "50b330861e214bf4bf7d07535d9070d2",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-10-30T15:07:09.025022+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "ad00a3820c2c4d11aea644e6c721647e",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-11-02T19:28:33.289180+00:00",
+    "details": {}
+  },
+  {
+    "id": "8c0bbe8d673546b8b30fd5455d2fb055",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-11-02T19:28:36.321965+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "a9610ed0cf5e431eae42e5bb040f8761",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-11-02T19:28:36.458970+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "17e21b4fe7bd4dcd81b559f422387722",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-11-02T19:30:28.703495+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "8255644aa78040b6a62e087239ce3266",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-11-02T19:30:28.807482+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "3f1d1a1e30404d9ea00260ff05fb7f82",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-11-02T20:04:32.905770+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "c6dc46eb52494f9b995f22a854dd19aa",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-11-02T20:04:34.296421+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "f4c364cb576b4724aec0578e510e61e7",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-11-03T12:34:36.813926+00:00",
+    "details": {}
+  },
+  {
+    "id": "c056176effc346938a808299abcf8558",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-11-03T12:34:41.414389+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "b677c292dd6f40fe96941dd32fe273b8",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-11-03T12:34:41.426515+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "6fe4053928e240ada9521d38f871d378",
+    "member_id": "TLC/001/2026",
+    "action": "Treasury Disbursement Recorded",
+    "description": "Disbursement TLC/DISB/2026/000001 recorded for KSh 158.90.",
+    "category": "financial",
+    "timestamp": "2026-11-03T12:39:34.586989+00:00",
+    "details": {
+      "disbursement_id": "TLC/DISB/2026/000001",
+      "amount": 158.9,
+      "category": "Other",
+      "purpose": "Hosting the Group Portal",
+      "paid_to": "M-PESA CARD",
+      "payment_method": "M-PESA",
+      "reference": "UK3E810G17"
+    }
+  },
+  {
+    "id": "a464935fe4d448d9bdce3cb4077c30cf",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Receipts",
+    "description": "Viewed personal TLC payment receipts.",
+    "category": "receipts",
+    "timestamp": "2026-11-03T13:24:43.887431+00:00",
+    "details": {
+      "receipt_count": 2
+    }
+  },
+  {
+    "id": "cd328a89065347e086541992d5251014",
+    "member_id": "TLC/001/2026",
+    "action": "Viewed Announcements",
+    "description": "Viewed the TLC announcements.",
+    "category": "announcements",
+    "timestamp": "2026-11-03T13:24:47.122933+00:00",
+    "details": {
+      "announcement_count": 0
+    }
+  },
+  {
+    "id": "83a05fa560bd42a181f706af122f1b7f",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-11-03T13:24:47.629467+00:00",
+    "details": {}
+  },
+  {
+    "id": "8a9ae4639eb2490884d00c9a310852ef",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-11-03T13:25:21.311184+00:00",
+    "details": {}
+  },
+  {
+    "id": "4bae790da6ba417dbecfdded104ad91e",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-11-03T13:25:21.343156+00:00",
+    "details": {}
+  },
+  {
+    "id": "cc065ffe6cc04f0aa185cb3955d12638",
+    "member_id": "TLC/001/2026",
+    "action": "Member Login",
+    "description": "Signed in to the TLC Member Portal.",
+    "category": "authentication",
+    "timestamp": "2026-11-03T13:25:21.367690+00:00",
+    "details": {}
+  }
+]

@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TLC | Money Out</title>
+
+<style>
+:root{
+--bg:#050b13;--panel:#0a1726;--panel2:#0d2033;--gold:#d4af37;
+--cyan:#19c7ff;--text:#f5f8fc;--muted:#8ea2b7;--line:rgba(255,255,255,.08);
+--green:#55dfa0;--red:#ff6f79;
+}
+*{box-sizing:border-box}
+body{
+margin:0;color:var(--text);font-family:Segoe UI,Arial,sans-serif;
+background:
+radial-gradient(circle at 10% 0%,rgba(212,175,55,.13),transparent 25%),
+radial-gradient(circle at 90% 0%,rgba(25,199,255,.12),transparent 25%),
+linear-gradient(180deg,#040a12,#06111d 55%,#030810);
+min-height:100vh;
+}
+.wrap{max-width:1350px;margin:auto;padding:22px}
+.top{
+display:flex;justify-content:space-between;align-items:center;gap:18px;
+padding:15px 18px;border:1px solid var(--line);border-radius:18px;
+background:rgba(9,23,38,.88);backdrop-filter:blur(16px);
+box-shadow:0 18px 50px #0007;
+}
+.brand{display:flex;align-items:center;gap:13px}
+.logo{
+width:58px;height:58px;border-radius:15px;background:#fff center/contain no-repeat;
+background-image:url('/assets/tlc_logo.jpeg');
+border:1px solid #d4af3766;
+}
+.brand h1{margin:0;font-size:19px;letter-spacing:.5px}
+.brand p{margin:4px 0 0;color:var(--muted);font-size:11px}
+.nav{display:flex;gap:8px;flex-wrap:wrap}
+.nav a{
+text-decoration:none;color:#d7e3ef;padding:10px 13px;border-radius:9px;
+border:1px solid var(--line);background:#ffffff03;font-size:11px;font-weight:800
+}
+.nav a.active{color:#79ddff;border-color:#19c7ff55;background:#19c7ff0d}
+
+.hero{
+margin-top:18px;padding:36px;border-radius:24px;overflow:hidden;position:relative;
+border:1px solid #d4af3733;
+background:
+radial-gradient(circle at 84% 20%,#19c7ff20,transparent 28%),
+radial-gradient(circle at 10% 100%,#d4af3715,transparent 25%),
+linear-gradient(135deg,#0b2138,#071321 68%,#08111c);
+box-shadow:0 30px 80px #0008;
+}
+.hero:after{
+content:"";position:absolute;right:-80px;bottom:-120px;width:300px;height:300px;
+border-radius:50%;border:1px solid #19c7ff22;
+box-shadow:0 0 0 35px #19c7ff09,0 0 0 70px #19c7ff05;
+}
+.kicker{color:#f1d66e;font-size:10px;font-weight:900;letter-spacing:1.5px;text-transform:uppercase}
+.kicker span{color:var(--green)}
+.hero h2{font-size:40px;margin:10px 0}
+.hero p{max-width:760px;color:#aabdd0;font-size:14px;line-height:1.7;margin:0}
+.hero-actions{display:flex;gap:10px;margin-top:22px}
+.hero-btn{
+padding:12px 17px;border-radius:10px;text-decoration:none;font-size:12px;font-weight:900
+}
+.primary{background:linear-gradient(135deg,var(--gold),#f2dc83);color:#07111d}
+.secondary{color:#dce7f1;border:1px solid var(--line);background:#ffffff05}
+
+.summary{
+display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0
+}
+.stat{
+padding:19px;border:1px solid var(--line);border-radius:16px;
+background:linear-gradient(180deg,#ffffff08,#ffffff02);
+position:relative;overflow:hidden
+}
+.stat:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--cyan)}
+.stat.gold:before{background:var(--gold)}
+.stat.green:before{background:var(--green)}
+.stat-label{color:var(--muted);font-size:10px;font-weight:900;letter-spacing:.8px;text-transform:uppercase}
+.stat strong{display:block;font-size:28px;margin-top:10px}
+
+.main{
+display:grid;grid-template-columns:minmax(0,1.2fr) minmax(320px,.8fr);
+gap:18px
+}
+.card{
+background:linear-gradient(180deg,#0b1b2d,#071321);
+border:1px solid var(--line);border-radius:20px;overflow:hidden;
+box-shadow:0 20px 55px #0006
+}
+.head{
+padding:20px 22px;border-bottom:1px solid var(--line);
+display:flex;justify-content:space-between;gap:15px;align-items:center
+}
+.head h3{margin:0;font-size:17px}.head p{margin:5px 0 0;color:var(--muted);font-size:11px}
+.badge{
+padding:7px 10px;border-radius:999px;background:#19c7ff0d;
+border:1px solid #19c7ff33;color:#7cddff;font-size:9px;font-weight:900
+}
+.form{padding:22px}
+.section{
+font-size:10px;font-weight:900;color:#f1d66e;letter-spacing:1px;
+text-transform:uppercase;display:flex;align-items:center;gap:10px;margin:3px 0 14px
+}
+.section:after{content:"";height:1px;background:var(--line);flex:1}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.full{grid-column:1/-1}
+label{display:block;font-size:10px;font-weight:900;color:#dbe7f2;letter-spacing:.5px;text-transform:uppercase;margin-bottom:7px}
+input,select,textarea{
+width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);
+background:#06121f;color:#fff;outline:none;font:inherit;font-size:13px
+}
+input:focus,select:focus,textarea:focus{border-color:#19c7ff77;box-shadow:0 0 0 3px #19c7ff0d}
+textarea{min-height:100px;resize:vertical}
+.actions{border-top:1px solid var(--line);margin-top:18px;padding-top:18px;display:flex;align-items:center;gap:12px}
+button{
+padding:13px 20px;border:0;border-radius:10px;font-weight:900;cursor:pointer;
+background:linear-gradient(135deg,var(--gold),#f0d877);color:#07111d;
+box-shadow:0 8px 22px #d4af3730
+}
+.status{font-size:12px;font-weight:800}.ok{color:var(--green)}.err{color:var(--red)}
+
+.side{display:grid;gap:18px}
+.info{padding:22px}
+.info h3{margin:0 0 9px;color:#f1d66e}
+.info p{color:var(--muted);font-size:12px;line-height:1.7;margin:0}
+.control{padding:0 20px 18px}
+.control-row{
+display:flex;gap:12px;padding:13px 0;border-bottom:1px solid var(--line);
+font-size:12px;color:#bfd0df
+}
+.control-row:last-child{border-bottom:0}
+.tick{color:var(--green);font-weight:900}
+
+.table-card{margin-top:18px}
+.table-wrap{padding:0 18px 18px;overflow:auto}
+table{width:100%;border-collapse:collapse;min-width:720px}
+th,td{padding:13px 10px;text-align:left;border-bottom:1px solid var(--line);font-size:11px}
+th{color:#f1d66e;font-size:9px;letter-spacing:.7px;text-transform:uppercase}
+td{color:#c7d7e6}
+tbody tr:hover td{background:#ffffff03}
+.amount{color:#76ddff;font-weight:900}
+.footer{text-align:center;padding:26px 0 5px;color:#657a90;font-size:10px}
+
+@media(max-width:950px){.main{grid-template-columns:1fr}}
+@media(max-width:700px){
+.wrap{padding:12px}.top{flex-direction:column;align-items:flex-start}
+.nav{width:100%}.nav a{flex:1;text-align:center}
+.hero{padding:25px 20px}.hero h2{font-size:30px}
+.summary{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.full{grid-column:auto}
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<header class="top">
+<div class="brand">
+<div class="logo"></div>
+<div>
+<h1>THE LEGACY CIRCLE</h1>
+<p>OFFICIAL FINANCIAL MANAGEMENT SYSTEM</p>
+</div>
+</div>
+
+<nav class="nav">
+<a href="/dashboard">Dashboard</a>
+<a href="/tlc-financial-register">Financial Register</a>
+<a href="/tlc-disbursements" class="active">Money Out</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="kicker"><span>●</span> CONTROLLED DISBURSEMENT MODULE</div>
+<h2>Money Out Control Center</h2>
+<p>
+Official TLC workspace for recording and monitoring every disbursement.
+Every successful transaction feeds directly into the Financial Register and reduces the current TLC balance.
+</p>
+<div class="hero-actions">
+<a href="#record" class="hero-btn primary">＋ Record Disbursement</a>
+<a href="/tlc-financial-register" class="hero-btn secondary">View Financial Register →</a>
+</div>
+</section>
+
+<section class="summary">
+<div class="stat gold">
+<div class="stat-label">Total Money Out</div>
+<strong id="total">KSh 0.00</strong>
+</div>
+
+<div class="stat">
+<div class="stat-label">Disbursement Transactions</div>
+<strong id="count">0</strong>
+</div>
+
+<div class="stat green">
+<div class="stat-label">System Status</div>
+<strong style="font-size:21px">ACTIVE</strong>
+</div>
+</section>
+
+<div class="main">
+
+<section class="card" id="record">
+
+<div class="head">
+<div>
+<h3>Record Official Disbursement</h3>
+<p>Enter the complete financial-control information below.</p>
+</div>
+<span class="badge">SECURE ENTRY</span>
+</div>
+
+<form id="f" class="form">
+
+<div class="section">Payment Details</div>
+
+<div class="grid">
+
+<div>
+<label>Amount (KSh) *</label>
+<input id="amount" type="number" min="1" step="0.01" placeholder="0.00" required>
+</div>
+
+<div>
+<label>Category *</label>
+<select id="category" required>
+<option value="">Select category</option>
+<option>Welfare</option>
+<option>Meeting</option>
+<option>Transport</option>
+<option>Refreshments</option>
+<option>Administration</option>
+<option>Emergency</option>
+<option>Bank / Transaction Charges</option>
+<option>Other</option>
+</select>
+</div>
+
+<div class="full">
+<label>Purpose *</label>
+<input id="purpose" placeholder="Describe exactly why the money was spent" required>
+</div>
+
+<div>
+<label>Paid To *</label>
+<input id="paid_to" placeholder="Person or organization" required>
+</div>
+
+<div>
+<label>Payment Method *</label>
+<select id="payment_method" required>
+<option value="">Select method</option>
+<option>M-PESA</option>
+<option>Bank</option>
+<option>Cash</option>
+<option>Airtel Money</option>
+<option>Other</option>
+</select>
+</div>
+
+<div class="full">
+<label>Reference</label>
+<input id="reference" placeholder="Transaction code, receipt number or other reference">
+</div>
+
+</div>
+
+<div class="section" style="margin-top:25px">Authorization & Timing</div>
+
+<div class="grid">
+
+<div>
+<label>Authorized By *</label>
+<input id="authorized_by" placeholder="Authorizing officer" required>
+</div>
+
+<div>
+<label>Recorded By *</label>
+<input id="recorded_by" placeholder="Officer recording the transaction" required>
+</div>
+
+<div>
+<label>Date *</label>
+<input id="transaction_date" type="date" required>
+</div>
+
+<div>
+<label>Time *</label>
+<input id="transaction_time" type="time" required>
+</div>
+
+<div class="full">
+<label>Notes</label>
+<textarea id="notes" placeholder="Additional details or remarks..."></textarea>
+</div>
+
+</div>
+
+<div class="actions">
+<button id="save" type="submit">Record Money Out</button>
+<span id="status" class="status"></span>
+</div>
+
+</form>
+</section>
+
+<div class="side">
+
+<section class="card info">
+<h3>Financial Control</h3>
+<p>
+Every successful disbursement becomes part of the official TLC register.
+The amount is automatically included in <b>Money Out</b> and deducted from the <b>Current TLC Balance</b>.
+</p>
+</section>
+
+<section class="card">
+<div class="head">
+<div>
+<h3>Entry Checklist</h3>
+<p>Confirm before recording.</p>
+</div>
+</div>
+
+<div class="control">
+<div class="control-row"><span class="tick">✓</span><span>Amount is correct.</span></div>
+<div class="control-row"><span class="tick">✓</span><span>Purpose is clearly stated.</span></div>
+<div class="control-row"><span class="tick">✓</span><span>Authorization is recorded.</span></div>
+<div class="control-row"><span class="tick">✓</span><span>Payment reference is captured where available.</span></div>
+</div>
+</section>
+
+<section class="card info">
+<h3>Register Flow</h3>
+<p>
+<strong>Record Disbursement</strong><br>
+↓<br>
+<strong>Money Out Register</strong><br>
+↓<br>
+<strong>Financial Register</strong><br>
+↓<br>
+<strong>Current TLC Balance</strong>
+</p>
+</section>
+
+</div>
+</div>
+
+<section class="card table-card">
+
+<div class="head">
+<div>
+<h3>Recent Money Out</h3>
+<p>Latest recorded TLC disbursements.</p>
+</div>
+<span class="badge">LIVE REGISTER</span>
+</div>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Purpose</th>
+<th>Paid To</th>
+<th>Category</th>
+<th>Method</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+
+</section>
+
+<div class="footer">
+Powered by <b>Thee Alvin Tech Solutions</b> · The Legacy Circle
+</div>
+
+</div>
+
+<script src="/assets/tlc_disbursements.js"></script>
+</body>
+</html>

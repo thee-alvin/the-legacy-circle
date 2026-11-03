@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#102437">
+    <title>TLC | Office of the President</title>
+    <link rel="stylesheet" href="/css/member/office-of-president.css?v=14">
+    <script src="/js/member/office-of-president.js?v=15" defer></script>
+</head>
+<body>
+    <header class="office-topbar">
+        <a class="brand" href="/dashboard" aria-label="TLC member dashboard">
+            <img class="brand-logo" src="/assets/tlc_logo.jpeg" alt="The Legacy Circle official logo">
+            <span class="brand-copy">
+                <strong>THE LEGACY CIRCLE</strong>
+                <small>Member Portal</small>
+            </span>
+        </a>
+        <a class="back-link" href="/dashboard">
+            <span aria-hidden="true">&larr;</span>
+            <span>Member Dashboard</span>
+        </a>
+    </header>
+
+    <main class="office-page">
+        <section class="office-hero">
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
+
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    TLC GOVERNANCE & LEADERSHIP
+                </div>
+                <h1>Office of the <span>President</span></h1>
+                <p class="hero-description">
+                    Meet the officials entrusted with serving The Legacy Circle.
+                    This is the official leadership directory for TLC members.
+                </p>
+                <div class="hero-meta">
+                    <span class="hero-meta-icon" aria-hidden="true"></span>
+                    Four official positions
+                    <span class="meta-divider"></span>
+                    Member access
+                </div>
+            </div>
+        </section>
+
+        <section class="directory-heading">
+            <div>
+                <p class="section-kicker">LEADERSHIP DIRECTORY</p>
+                <h2>Our Group Officials</h2>
+                <p class="section-subtitle">
+                    Official names and details are maintained by authorized TLC administration.
+                </p>
+            </div>
+            <div class="directory-count">
+                <strong id="positionCount">04</strong>
+                <span>POSITIONS</span>
+            </div>
+        </section>
+
+        <div id="officeStatus" class="office-status" role="status" aria-live="polite">
+            Loading the TLC leadership directory?
+        </div>
+
+        <section
+            id="officialsGrid"
+            class="officials-grid"
+            aria-label="TLC official positions"
+            aria-live="polite">
+        </section>
+
+        <section class="former-officials-section"
+                 aria-labelledby="formerOfficialsTitle">
+            <header class="former-officials-heading">
+                <div>
+                    <p class="section-kicker">PRESERVING OUR HISTORY</p>
+                    <h2 id="formerOfficialsTitle">Former Officials &amp; Leadership Archive</h2>
+                    <p class="section-subtitle">
+                        Every service record matters. Past office holders remain
+                        part of the TLC leadership story after their terms end.
+                    </p>
+                </div>
+                <span id="formerOfficialsCount" class="former-officials-count">
+                    00 RECORDS
+                </span>
+            </header>
+
+            <p id="formerOfficialsStatus"
+               class="former-officials-status"
+               role="status"
+               aria-live="polite">
+                Loading the leadership archive...
+            </p>
+
+            <div id="formerOfficialsGrid"
+                 class="officials-grid former-officials-grid"
+                 aria-label="Former TLC officials"
+                 aria-live="polite"></div>
+        </section>
+
+
+        <section class="communications-panel">
+            <div class="communications-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="1.8"
+                     stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2.5" y="5.5" width="19" height="13" rx="1.5"/>
+                    <path d="m3 7 9 7 9-7"/>
+                </svg>
+            </div>
+            <div class="communications-copy">
+                <p class="section-kicker">OFFICIAL COMMUNICATIONS</p>
+                <h2>Stay informed about TLC</h2>
+                <p>
+                    Group announcements and published notices are available
+                    in the existing Announcements section of your portal.
+                </p>
+            </div>
+            <a class="communications-link" href="/member/announcements">View announcements <span aria-hidden="true">&rarr;</span></a>
+        </section>
+
+        <footer class="office-footer">
+            <span>THE LEGACY CIRCLE</span>
+            <span>Office of the President | Official directory</span>
+        </footer>
+    </main>
+
+    <dialog id="officialEditor" class="official-dialog" aria-labelledby="editorTitle">
+        <form id="officialForm">
+            <div class="dialog-header">
+                <div>
+                    <p class="section-kicker">LEADERSHIP MANAGEMENT</p>
+                    <h2 id="editorTitle">Edit Official</h2>
+                    <p id="editorPosition" class="dialog-position"></p>
+                </div>
+                <button
+                    id="closeEditor"
+                    class="icon-button"
+                    type="button"
+                    aria-label="Close editor">&times;</button>
+            </div>
+
+            <div class="dialog-body">
+                <div id="editorMessage" class="editor-message" role="status"></div>
+
+                <label for="officialName">Official's full name</label>
+                <input id="officialName" name="name" type="text" maxlength="120"
+                    autocomplete="name" placeholder="Enter the official's full name">
+
+                <label for="officialMemberId">TLC member ID <span>(optional)</span></label>
+                <input id="officialMemberId" name="member_id" type="text" maxlength="40"
+                    placeholder="e.g. TLC/002/2026">
+
+                <label for="officialPhoto">Profile photo URL or portal asset path <span>(optional)</span></label>
+                <input id="officialPhoto" name="photo_url" type="text" maxlength="500"
+                    placeholder="/assets/profile_pictures/photo.jpg">
+
+                <div class="form-row">
+                    <div>
+                        <label for="termStart">Term starts <span>(optional)</span></label>
+                        <input id="termStart" name="term_start" type="date">
+                    </div>
+                    <div>
+                        <label for="termEnd">Term ends <span>(optional)</span></label>
+                        <input id="termEnd" name="term_end" type="date">
+                    </div>
+                </div>
+
+                <label for="officialStatus">Official status</label>
+                <select id="officialStatus" name="status">
+                    <option value="ACTIVE">Active official</option>
+                    <option value="FORMER">Former official</option>
+                    <option value="VACANT">Vacant position</option>
+                </select>
+
+                <div class="official-contact-fields">
+                    <label class="official-contact-field" for="officialEmail">
+                        <span>Official email address</span>
+                        <input id="officialEmail" name="email" type="email"
+                               maxlength="254" autocomplete="email"
+                               placeholder="name@example.com">
+                    </label>
+                    <label class="official-contact-field" for="officialContact">
+                        <span>Official contact number</span>
+                        <input id="officialContact" name="contact" type="tel"
+                               maxlength="40" autocomplete="tel"
+                               placeholder="+254 7xx xxx xxx">
+                    </label>
+                </div>
+                <label for="officialBiography">Profile / responsibilities <span>(optional)</span></label>
+                <textarea id="officialBiography" name="biography" maxlength="1200"
+                    rows="4" placeholder="Add a short official profile or responsibilities."></textarea>
+
+                <p class="privacy-note">
+                    Changes are saved to the TLC portal. Existing records are backed up
+                    before an official record is updated.
+                </p>
+            </div>
+
+            <div class="dialog-actions">
+                <button id="cancelEditor" class="button-secondary" type="button">Cancel</button>
+                <button id="saveOfficial" class="button-primary" type="submit">Save official</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog id="officialCardDialog"
+            class="official-card-dialog"
+            aria-labelledby="cardDialogTitle">
+
+        <div class="official-card-dialog-content">
+            <header class="official-card-dialog-header">
+                <div>
+                    <p class="section-kicker">TLC OFFICIAL DOCUMENT</p>
+                    <h2 id="cardDialogTitle">Official Card</h2>
+                    <p class="card-dialog-description">
+                        Preview the official leadership card and save it as a PNG image.
+                    </p>
+                </div>
+
+                <button id="closeOfficialCardDialog"
+                        class="card-dialog-close"
+                        type="button"
+                        aria-label="Close official card preview">Close</button>
+            </header>
+
+            <div class="official-card-preview-wrap">
+                <canvas id="officialCardCanvas"
+                        width="3000"
+                        height="1850"
+                        aria-label="High resolution TLC official card preview">
+                </canvas>
+            </div>
+
+            <footer class="official-card-dialog-footer">
+                <p id="cardDownloadStatus"
+                   class="card-download-status"
+                   role="status"
+                   aria-live="polite">
+                    Select an official to preview their card.
+                </p>
+
+                <button id="downloadOfficialCard"
+                        class="download-official-card-button"
+                        type="button"
+                        disabled>
+                    Download PNG
+                </button>
+            </footer>
+        </div>
+    </dialog>
+
+</body>
+</html>

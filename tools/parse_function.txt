@@ -1,0 +1,124 @@
+﻿/* ---------------------------------------------------------
+   PARSE ARTICLES
+--------------------------------------------------------- */
+
+function parseConstitution(text) {
+
+    const rawLines = text
+        .split(/\r?\n/)
+        .map(line => line.trim())
+        .filter(Boolean);
+
+
+    const lines = rawLines
+        .map(normalizeLine)
+        .filter(line => {
+
+            /* Remove PDF page-number artifacts */
+            if (
+                /^\d+\s*\|\s*P\s*a\s*g\s*e/i.test(line)
+            ) {
+                return false;
+            }
+
+            /* Remove repeated PDF header */
+            if (
+                /TLC\s*CONSTITUTION/i.test(line)
+            ) {
+                return false;
+            }
+
+            return true;
+        });
+
+
+    const articles = [];
+
+    let currentArticle = null;
+    let currentSection = null;
+
+
+    for (const line of lines) {
+
+        /* ARTICLE */
+
+        if (isArticle(line)) {
+
+            currentArticle = {
+                title: line,
+                sections: []
+            };
+
+            articles.push(currentArticle);
+
+            currentSection = null;
+
+            continue;
+        }
+
+
+        /* Ignore anything before Article 1 */
+
+        if (!currentArticle) {
+            continue;
+        }
+
+
+        /*
+         ------------------------------------------------------
+         STOP THE NORMAL CONSTITUTION TEXT BEFORE THE
+         SIGNATURE PAGES.
+
+         These are rendered separately using the real
+         signature images.
+         ------------------------------------------------------
+        */
+
+        if (
+            /^FOUNDING MEMBERS$/i.test(line) ||
+            /^OFFICIAL SIGNATURE/i.test(line) ||
+            /^FINAL DECLARATION$/i.test(line) ||
+            /^END OF THE CONSTITUTION$/i.test(line)
+        ) {
+            break;
+        }
+
+
+        /* SECTION */
+
+        if (isSection(line)) {
+
+            currentSection = {
+                title: line,
+                lines: []
+            };
+
+            currentArticle.sections.push(
+                currentSection
+            );
+
+            continue;
+        }
+
+
+        /* Create a section when necessary */
+
+        if (!currentSection) {
+
+            currentSection = {
+                title: "",
+                lines: []
+            };
+
+            currentArticle.sections.push(
+                currentSection
+            );
+        }
+
+
+        currentSection.lines.push(line);
+    }
+
+
+    return articles;
+}

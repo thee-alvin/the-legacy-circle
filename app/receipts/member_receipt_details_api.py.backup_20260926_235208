@@ -1,0 +1,63 @@
+﻿from flask import Blueprint, jsonify, session
+
+from app.receipts.receipt_storage import get_receipts_for_member
+from app.security.audit_log import record_activity
+
+
+member_receipt_details_api = Blueprint(
+    "member_receipt_details_api",
+    __name__,
+    url_prefix="/api/member/receipt"
+)
+
+
+@member_receipt_details_api.route(
+    "/<path:receipt_number>",
+    methods=["GET"]
+)
+def get_member_receipt(receipt_number):
+
+    member_id = session.get("member_id")
+
+    if not member_id:
+        return jsonify({
+            "success": False,
+            "message": "Please log in to view this receipt."
+        }), 401
+
+    receipt_number = str(
+        receipt_number
+    ).strip()
+
+    receipts = get_receipts_for_member(
+        member_id
+    )
+
+    for receipt in receipts:
+
+        if str(
+            receipt.get("receipt_number", "")
+        ).strip() == receipt_number:
+
+            record_activity(
+                member_id,
+                action="Viewed Receipt",
+                description=(
+                    f"Viewed receipt {receipt_number}."
+                ),
+                category="receipts",
+                details={
+                    "receipt_number": receipt_number,
+                    "amount": receipt.get("amount", "")
+                }
+            )
+
+            return jsonify({
+                "success": True,
+                "receipt": receipt
+            })
+
+    return jsonify({
+        "success": False,
+        "message": "Receipt not found."
+    }), 404

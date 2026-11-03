@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1d36">
+<title>My Contribution Calendar | The Legacy Circle</title>
+<link rel="stylesheet" href="/assets/contribution-calendar.css?v=2">
+<script src="/js/contribution-calendar.js?v=1" defer></script>
+</head>
+<body>
+<main class="cc-page" id="contributionCalendarApp">
+    <header class="cc-hero">
+        <div class="cc-hero-copy">
+            <p class="cc-kicker">THE LEGACY CIRCLE GROUP</p>
+            <h1>My Contribution Calendar</h1>
+            <p>Every Thursday, clearly accounted for. See what is covered,
+               what remains unpaid, and what is coming next.</p>
+            <div id="memberIdentity" class="cc-member">Your member account</div>
+        </div>
+        <nav class="cc-hero-actions" aria-label="Member navigation">
+            <a href="/dashboard"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" style="vertical-align:-4px;margin-right:6px" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7"></path><path d="M5 9v12h14V9M9 21v-7h6v7"></path></svg>Dashboard</a>
+            <a href="/member/contributions" class="cc-light-link">Payment history</a>
+        </nav>
+    </header>
+
+    <div id="calendarNotice" class="cc-notice" role="status" aria-live="polite">
+        Loading your contribution calendar...
+    </div>
+
+    <section id="calendarWorkspace" hidden>
+        <header class="cc-toolbar">
+            <div>
+                <p class="cc-small-kicker">YOUR WEEKLY RECORD</p>
+                <h2 id="monthTitle">Contribution calendar</h2>
+                <p id="monthSubtitle">Your Thursday-by-Thursday record.</p>
+            </div>
+            <div class="cc-month-controls">
+                <button type="button" id="previousMonth" aria-label="Previous month"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg></button>
+                <button type="button" id="currentMonth">Current month</button>
+                <button type="button" id="nextMonth" aria-label="Next month"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg></button>
+            </div>
+        </header>
+
+        <section class="cc-summary" aria-label="Monthly summary">
+            <article class="cc-metric paid"><span>PAID</span><strong id="paidCount">0</strong><small>Covered weeks</small></article>
+            <article class="cc-metric unpaid"><span>UNPAID</span><strong id="unpaidCount">0</strong><small>Past dates not covered</small></article>
+            <article class="cc-metric upcoming"><span>UPCOMING</span><strong id="upcomingCount">0</strong><small>Future dates</small></article>
+            <article class="cc-metric neutral"><span>NOT DUE</span><strong id="notDueCount">0</strong><small>Before contribution start</small></article>
+            <article class="cc-metric review"><span>NEEDS REVIEW</span><strong id="reviewCount">0</strong><small>Start date unconfirmed</small></article>
+        </section>
+
+        <div id="startDateWarning" class="cc-warning" hidden>
+            Your contribution start date could not be established. Please ask
+            TLC Treasury to verify it. These Thursdays will not be marked unpaid.
+        </div>
+
+        <section class="cc-layout">
+            <div class="cc-calendar-card">
+                <div class="cc-card-heading">
+                    <div><h3>Weekly calendar</h3><p>Select a Thursday to view its details.</p></div>
+                    <span id="weeklyRate" class="cc-rate">KES 100 / week</span>
+                </div>
+
+                <div class="cc-weekdays" aria-hidden="true">
+                    <span>Mon</span><span>Tue</span><span>Wed</span>
+                    <span class="cc-thursday">Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+                </div>
+                <div id="calendarGrid" class="cc-grid" aria-label="Monthly calendar"></div>
+
+                <div class="cc-legend" aria-label="Status legend">
+                    <span><i class="paid-dot"></i>Paid</span>
+                    <span><i class="unpaid-dot"></i>Unpaid</span>
+                    <span><i class="upcoming-dot"></i>Upcoming</span>
+                    <span><i class="neutral-dot"></i>Not due</span>
+                    <span><i class="review-dot"></i>Needs review</span>
+                </div>
+            </div>
+
+            <aside class="cc-detail" aria-live="polite">
+                <p class="cc-small-kicker">THURSDAY DETAILS</p>
+                <h3 id="selectedDateTitle">Select a Thursday</h3>
+                <p id="selectedDateIntro" class="cc-detail-intro">Choose a Thursday on the calendar.</p>
+
+                <div class="cc-status-row">
+                    <span>STATUS</span>
+                    <strong id="selectedStatus" class="cc-status-pill">Not selected</strong>
+                </div>
+
+                <dl class="cc-detail-list">
+                    <div><dt>Expected contribution</dt><dd id="selectedAmountDue">?</dd></div>
+                    <div><dt>Amount allocated</dt><dd id="selectedAmountCovered">?</dd></div>
+                    <div><dt>Coverage allocations</dt><dd id="selectedAllocationCount">?</dd></div>
+                </dl>
+
+                <p id="selectedExplanation" class="cc-explanation">
+                    Statuses are calculated from TLC's existing contribution records.
+                </p>
+            </aside>
+        </section>
+
+        <footer class="cc-footer">
+            <strong>Financial record accuracy matters.</strong>
+            This calendar is read-only and reflects the contribution coverage
+            recorded by TLC. Contact the authorized Treasury team if a status
+            appears incorrect; payment statuses cannot be edited here.
+        </footer>
+    </section>
+</main>
+</body>
+</html>
+

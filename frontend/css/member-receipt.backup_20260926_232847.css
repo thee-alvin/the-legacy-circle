@@ -1,0 +1,1312 @@
+﻿.receipt-page {
+    width: min(100% - 32px, 900px);
+    margin: 30px auto 60px;
+}
+
+.receipt-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.back-button,
+.action-buttons button {
+    min-height: 44px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #d9dee7;
+    background: #ffffff;
+    color: #172033;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.receipt-card {
+    background: #ffffff;
+    border: 1px solid #e1e5eb;
+    border-radius: 16px;
+    padding: 34px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.receipt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.receipt-brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.receipt-logo {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.receipt-brand h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.receipt-brand p {
+    margin: 5px 0 0;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: #687386;
+}
+
+.receipt-status span {
+    padding: 7px 12px;
+    border-radius: 20px;
+    background: #eaf7ef;
+    color: #207044;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.receipt-divider {
+    height: 1px;
+    background: #e4e8ee;
+    margin: 28px 0;
+}
+
+.receipt-number-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 18px;
+    background: #f7f9fc;
+    border-radius: 10px;
+}
+
+.receipt-number-section span,
+.detail span,
+.amount-section span,
+.section-heading span {
+    color: #687386;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.receipt-number-section strong {
+    font-size: 18px;
+}
+
+.member-section,
+.payment-section {
+    margin-top: 30px;
+}
+
+.section-heading {
+    border-bottom: 1px solid #e4e8ee;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.detail strong {
+    color: #172033;
+    word-break: break-word;
+}
+
+.amount-section {
+    margin-top: 30px;
+    padding: 24px;
+    border-radius: 12px;
+    background: #f7f9fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.amount-section strong {
+    font-size: 28px;
+}
+
+.receipt-footer {
+    margin-top: 34px;
+    padding-top: 24px;
+    border-top: 1px solid #e4e8ee;
+    text-align: center;
+    color: #687386;
+}
+
+.secure-note {
+    font-size: 12px;
+}
+
+.footer-brand {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 12px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .receipt-page {
+        width: min(100% - 20px, 900px);
+        margin-top: 15px;
+    }
+
+    .receipt-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .action-buttons {
+        width: 100%;
+    }
+
+    .action-buttons button {
+        flex: 1;
+    }
+
+    .receipt-card {
+        padding: 20px;
+    }
+
+    .receipt-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .receipt-number-section,
+    .amount-section {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .details-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media print {
+
+    .receipt-actions,
+    
+
+    .receipt-page {
+        width: 100%;
+        margin: 0;
+    }
+
+    .receipt-card {
+        box-shadow: none;
+        border: none;
+    }
+}
+
+/* =========================================================
+   TLC OFFICIAL STAMP & TREASURER RECOGNITION
+   ========================================================= */
+
+.receipt-authority {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 34px 0 28px;
+    padding: 24px 0;
+    border-top: 1px solid #d9e0eb;
+    border-bottom: 1px solid #d9e0eb;
+}
+
+.official-stamp {
+    width: 145px;
+    height: 145px;
+    flex: 0 0 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.official-stamp img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.treasurer-recognition {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: right;
+}
+
+.treasurer-recognition .authority-label {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #b78a24;
+    margin-bottom: 5px;
+}
+
+.treasurer-recognition strong {
+    font-size: 22px;
+    color: #102b57;
+}
+
+.treasurer-recognition span:not(.authority-label) {
+    font-size: 15px;
+    font-weight: 700;
+    color: #263d60;
+}
+
+.treasurer-recognition small {
+    font-size: 13px;
+    color: #71809a;
+}
+
+@media (max-width: 600px) {
+
+    .receipt-authority {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .treasurer-recognition {
+        text-align: center;
+    }
+
+    .official-stamp {
+        width: 125px;
+        height: 125px;
+        flex-basis: 125px;
+    }
+}
+
+@media print {
+
+    .receipt-authority {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .official-stamp img {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+
+/* =========================================================
+   TREASURER ELECTRONIC SIGNATURE
+   ========================================================= */
+
+.electronic-signature {
+    margin-top: 16px;
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+    color: #102b57;
+    line-height: 1;
+}
+
+.signature-line {
+    width: 210px;
+    height: 1px;
+    background: #102b57;
+    margin-top: 7px;
+    margin-left: auto;
+}
+
+.signature-caption {
+    display: block;
+    margin-top: 5px;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #71809a;
+}
+
+.treasurer-title {
+    font-weight: 700;
+    color: #263d60;
+}
+
+@media (max-width: 600px) {
+
+    .electronic-signature {
+        font-size: 28px;
+    }
+
+    .signature-line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media print {
+
+    .electronic-signature {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+
+/* =========================================================
+   FINAL RECEIPT AUTHORITY / FOOTER LAYOUT FIX
+   ========================================================= */
+
+.receipt-authority {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    align-items: center;
+    gap: 55px;
+    margin: 35px 0 0;
+    padding: 30px 25px;
+    border-top: 1px solid #d9e0eb;
+    border-bottom: 1px solid #d9e0eb;
+}
+
+.receipt-authority .official-stamp {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.receipt-authority .official-stamp img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    display: block;
+}
+
+.receipt-authority .treasurer-recognition {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.receipt-authority .authority-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.receipt-authority .treasurer-recognition strong {
+    display: block;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.receipt-authority .treasurer-title {
+    display: block;
+    margin-top: 5px;
+}
+
+.receipt-authority .treasurer-recognition small {
+    display: block;
+    margin-top: 3px;
+}
+
+.receipt-footer {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    clear: both;
+    margin-top: 0;
+}
+
+/* Make absolutely sure the footer starts below the authority section */
+.receipt-card > .receipt-authority + .receipt-footer {
+    grid-column: 1 / -1;
+    width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .receipt-authority {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .receipt-authority .treasurer-recognition {
+        align-items: center;
+        text-align: center;
+    }
+
+    .receipt-authority .official-stamp,
+    .receipt-authority .official-stamp img {
+        width: 135px;
+        height: 135px;
+    }
+}
+
+/* Print */
+@media print {
+
+    .receipt-authority {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .receipt-footer {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+
+
+
+/* =========================================================
+   FINAL RECEIPT STRUCTURE
+   Everything flows vertically.
+   ========================================================= */
+
+.receipt-card {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Authority section occupies the full receipt width */
+.receipt-card .receipt-authority {
+    order: 10;
+    width: 100% !important;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    margin-top: 35px;
+}
+
+/* Footer MUST come after the authority section */
+.receipt-card .receipt-footer {
+    order: 20;
+    width: 100% !important;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    display: block !important;
+    margin-top: 0 !important;
+    clear: both;
+}
+
+/* Authority itself */
+.receipt-authority {
+    display: grid !important;
+    grid-template-columns: 190px minmax(0, 1fr) !important;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Treasurer information */
+.treasurer-recognition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    min-width: 0;
+}
+
+/* Official seal */
+.receipt-authority .official-stamp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.receipt-authority .official-stamp img {
+    width: 165px;
+    height: 165px;
+    object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+
+    .receipt-authority {
+        grid-template-columns: 1fr !important;
+        justify-items: center;
+        gap: 25px;
+    }
+
+    .treasurer-recognition {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* =========================================================
+   TLC RECEIPT — OFFICIAL STAMP & TREASURER LAYOUT
+   ========================================================= */
+
+.receipt-authority {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 80px;
+    padding: 55px 55px 45px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    border-top: 1px solid #d8e0ea;
+    border-bottom: 1px solid #d8e0ea;
+    box-sizing: border-box;
+}
+
+/* Official TLC stamp */
+.receipt-authority .official-stamp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.receipt-authority .official-stamp img {
+    width: 230px;
+    height: 230px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Treasurer area */
+.receipt-authority .treasurer-recognition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 0;
+}
+
+.receipt-authority .authority-label {
+    display: block;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #b8862c;
+}
+
+.receipt-authority .treasurer-recognition strong {
+    display: block;
+    font-size: 34px;
+    line-height: 1.15;
+    color: #123b68;
+    margin-bottom: 8px;
+}
+
+.receipt-authority .treasurer-title {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #183d68;
+    margin-bottom: 6px;
+}
+
+.receipt-authority .treasurer-recognition small {
+    display: block;
+    font-size: 16px;
+    color: #718096;
+    margin-bottom: 28px;
+}
+
+/* Electronic signature */
+.receipt-authority .electronic-signature {
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-size: 42px;
+    font-weight: 700;
+    font-style: italic;
+    color: #123b68;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.receipt-authority .signature-line {
+    width: 260px;
+    max-width: 85%;
+    height: 2px;
+    background: #123b68;
+    margin-bottom: 12px;
+}
+
+.receipt-authority .signature-caption {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #183d68;
+}
+
+/* Keep footer BELOW the complete authority section */
+.receipt-card .receipt-footer {
+    width: 100%;
+    position: relative;
+    clear: both;
+    margin-top: 0;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    .receipt-authority {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 40px 20px;
+    }
+
+    .receipt-authority .official-stamp img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .receipt-authority .treasurer-recognition strong {
+        font-size: 30px;
+    }
+
+    .receipt-authority .electronic-signature {
+        font-size: 36px;
+    }
+}
+/* =========================================================
+   TLC RECEIPT — SPREAD AUTHORITY ACROSS FULL RECEIPT
+   ========================================================= */
+
+.receipt-authority {
+    width: 100%;
+    max-width: none;
+
+    display: grid;
+    grid-template-columns: 220px minmax(280px, 1fr);
+
+    align-items: center;
+    justify-content: space-between;
+
+    column-gap: 40px;
+
+    padding: 45px 35px;
+    margin: 35px 0 45px;
+
+    box-sizing: border-box;
+}
+
+/* SEAL — FAR LEFT */
+.receipt-authority .official-stamp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.receipt-authority .official-stamp img {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+
+/* TREASURER — FAR RIGHT */
+.receipt-authority .treasurer-recognition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    text-align: right;
+    width: 100%;
+}
+
+/* Keep the Treasurer text normal-sized */
+.receipt-authority .authority-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.receipt-authority .treasurer-recognition strong {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+.receipt-authority .treasurer-title {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.receipt-authority .treasurer-recognition small {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* Signature */
+.receipt-authority .electronic-signature {
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: italic;
+
+    margin-bottom: 8px;
+}
+
+.receipt-authority .signature-line {
+    width: 250px;
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+.receipt-authority .signature-caption {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    .receipt-authority {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        padding: 35px 20px;
+    }
+
+    .receipt-authority .official-stamp {
+        justify-content: center;
+    }
+
+    .receipt-authority .treasurer-recognition {
+        align-items: center;
+        text-align: center;
+    }
+}
+/* =========================================================
+   TLC RECEIPT — SPREAD AUTHORITY ACROSS FULL RECEIPT
+   ========================================================= */
+
+.receipt-authority {
+    width: 100%;
+    max-width: none;
+
+    display: grid;
+    grid-template-columns: 220px minmax(280px, 1fr);
+
+    align-items: center;
+    justify-content: space-between;
+
+    column-gap: 40px;
+
+    padding: 45px 35px;
+    margin: 35px 0 45px;
+
+    box-sizing: border-box;
+}
+
+/* SEAL — FAR LEFT */
+.receipt-authority .official-stamp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.receipt-authority .official-stamp img {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+
+/* TREASURER — FAR RIGHT */
+.receipt-authority .treasurer-recognition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    text-align: right;
+    width: 100%;
+}
+
+/* Keep the Treasurer text normal-sized */
+.receipt-authority .authority-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.receipt-authority .treasurer-recognition strong {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+.receipt-authority .treasurer-title {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.receipt-authority .treasurer-recognition small {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* Signature */
+.receipt-authority .electronic-signature {
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: italic;
+
+    margin-bottom: 8px;
+}
+
+.receipt-authority .signature-line {
+    width: 250px;
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+.receipt-authority .signature-caption {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    .receipt-authority {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        padding: 35px 20px;
+    }
+
+    .receipt-authority .official-stamp {
+        justify-content: center;
+    }
+
+    .receipt-authority .treasurer-recognition {
+        align-items: center;
+        text-align: center;
+    }
+}
+/* =========================================================
+   TLC — AUTHORITY SECTION
+   SEAL LEFT / TREASURER RIGHT
+   ========================================================= */
+
+.receipt-card .receipt-authority {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    box-sizing: border-box;
+    padding: 45px 40px !important;
+    margin: 35px 0 45px !important;
+
+    border-top: 1px solid #d8e0ea;
+    border-bottom: 1px solid #d8e0ea;
+}
+
+/* FAR LEFT */
+.receipt-card .receipt-authority .official-stamp {
+    flex: 0 0 220px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.receipt-card .receipt-authority .official-stamp img {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+
+/* FAR RIGHT */
+.receipt-card .receipt-authority .treasurer-recognition {
+    flex: 0 0 300px;
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    text-align: right;
+}
+
+/* Treasurer information */
+.receipt-card .authority-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.receipt-card .treasurer-recognition strong {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+.receipt-card .treasurer-title {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.receipt-card .treasurer-recognition small {
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+/* Signature */
+.receipt-card .electronic-signature {
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: italic;
+    color: #123b68;
+    margin-bottom: 8px;
+}
+
+.receipt-card .signature-line {
+    width: 250px;
+    height: 2px;
+    background: #123b68;
+    margin-bottom: 10px;
+}
+
+.receipt-card .signature-caption {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .receipt-card .receipt-authority {
+        flex-direction: column !important;
+        gap: 30px;
+    }
+
+    .receipt-card .receipt-authority .official-stamp {
+        flex-basis: auto;
+        justify-content: center;
+    }
+
+    .receipt-card .receipt-authority .treasurer-recognition {
+        flex-basis: auto;
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+}
+/* =========================================================
+   TLC RECEIPT — COMPACT AUTHORITY SECTION
+   ========================================================= */
+
+.receipt-card .receipt-authority {
+    padding: 25px 40px !important;
+    margin: 20px 0 25px !important;
+
+    min-height: 0 !important;
+    align-items: center !important;
+}
+
+/* Keep seal compact */
+.receipt-card .receipt-authority .official-stamp img {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+/* Compact Treasurer block */
+.receipt-card .receipt-authority .treasurer-recognition {
+    gap: 0 !important;
+}
+
+.receipt-card .authority-label {
+    margin-bottom: 7px !important;
+    font-size: 13px !important;
+}
+
+.receipt-card .treasurer-recognition strong {
+    font-size: 28px !important;
+    margin-bottom: 3px !important;
+}
+
+.receipt-card .treasurer-title {
+    font-size: 18px !important;
+    margin-bottom: 2px !important;
+}
+
+.receipt-card .treasurer-recognition small {
+    font-size: 14px !important;
+    margin-bottom: 12px !important;
+}
+
+/* Signature closer to Treasurer details */
+.receipt-card .electronic-signature {
+    font-size: 34px !important;
+    margin-bottom: 5px !important;
+}
+
+.receipt-card .signature-line {
+    width: 220px !important;
+    margin-bottom: 6px !important;
+}
+
+.receipt-card .signature-caption {
+    font-size: 12px !important;
+}
+
+/* Make the whole section compact */
+.receipt-card .receipt-authority > * {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+/* =========================================================
+   TLC RECEIPT — QR VERIFICATION
+   ========================================================= */
+
+.receipt-qr-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    padding: 25px 40px;
+    margin: 20px 0;
+
+    border-top: 1px solid #d8e0ea;
+    border-bottom: 1px solid #d8e0ea;
+}
+
+.qr-information {
+    flex: 1;
+    text-align: left;
+}
+
+.qr-label {
+    display: block;
+
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+    color: #b8862c;
+
+    margin-bottom: 6px;
+}
+
+.qr-information h3 {
+    margin: 0 0 5px;
+
+    font-size: 21px;
+
+    color: #123b68;
+}
+
+.qr-information p {
+    margin: 0 0 8px;
+
+    max-width: 430px;
+
+    font-size: 13px;
+    line-height: 1.5;
+
+    color: #718096;
+}
+
+#qrReceiptNumber {
+    font-size: 13px;
+    color: #123b68;
+}
+
+.qr-code-container {
+    width: 130px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 40px;
+}
+
+#receiptQRCode {
+    width: 110px;
+    height: 110px;
+
+    padding: 6px;
+
+    background: #ffffff;
+
+    border: 1px solid #d8e0ea;
+}
+
+#receiptQRCode img,
+#receiptQRCode canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+.qr-code-container span {
+    margin-top: 6px;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #123b68;
+}
+
+@media (max-width: 700px) {
+
+    .receipt-qr-section {
+        flex-direction: column;
+        gap: 20px;
+
+        text-align: center;
+    }
+
+    .qr-information {
+        text-align: center;
+    }
+
+    .qr-code-container {
+        margin-left: 0;
+    }
+}
+
+/* Printing */
+@media print {
+
+    .receipt-qr-section {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+#receiptQRCode {
+    width: 165px;
+    height: 165px;
+    min-width: 165px;
+    min-height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid #d5deea;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#receiptQRCode img {
+    width: 165px;
+    height: 165px;
+    display: block;
+    object-fit: contain;
+}
+
+/* TLC RECEIPT QR */
+#receiptQRCode {
+    width: 165px !important;
+    height: 165px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #ffffff !important;
+    overflow: hidden !important;
+}
+
+#receiptQRCode img {
+    width: 165px !important;
+    height: 165px !important;
+    display: block !important;
+    object-fit: contain !important;
+}
+
+/* ==========================================
+   TLC RECEIPT QR - FINAL DISPLAY
+========================================== */
+
+.qr-code-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.qr-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 190px !important;
+    height: 190px !important;
+}
+
+#receiptQRCode {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 170px !important;
+    height: 170px !important;
+    min-width: 170px !important;
+    min-height: 170px !important;
+    padding: 2px !important;
+    background: #ffffff !important;
+    border: 2px solid #173F6B !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+}
+
+#receiptQRCode img {
+    display: block !important;
+    width: 165px !important;
+    height: 165px !important;
+    max-width: 165px !important;
+    max-height: 165px !important;
+    min-width: 165px !important;
+    min-height: 165px !important;
+    object-fit: contain !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.qr-loading {
+    font-size: 12px;
+    color: #173F6B;
+}

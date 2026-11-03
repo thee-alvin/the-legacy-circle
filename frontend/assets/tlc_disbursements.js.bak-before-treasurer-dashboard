@@ -1,0 +1,66 @@
+﻿const $=id=>document.getElementById(id);
+const money=v=>"KSh "+Number(v||0).toLocaleString("en-KE",{minimumFractionDigits:2,maximumFractionDigits:2});
+
+function defaults(){
+ const d=new Date();
+ $("transaction_date").value=d.toISOString().slice(0,10);
+ $("transaction_time").value=d.toTimeString().slice(0,5);
+}
+
+async function load(){
+ const r=await fetch("/api/tlc/disbursements",{credentials:"same-origin"});
+ const d=await r.json();
+ if(!r.ok||d.success===false) throw new Error(d.message||"Unable to load disbursements.");
+ const x=d.register||d;
+ $("total").textContent=money(x.summary?.total_withdrawals);
+ $("count").textContent=Number(x.summary?.transactions||0).toLocaleString("en-KE");
+ $("rows").innerHTML="";
+ (x.transactions||[]).forEach(t=>{
+  $("rows").innerHTML+=`<tr><td>${t.date||""}</td><td>${t.purpose||""}</td><td>${t.paid_to||""}</td><td>${money(t.amount)}</td></tr>`;
+ });
+}
+
+$("f").addEventListener("submit",async e=>{
+ e.preventDefault();
+ $("save").disabled=true;
+ $("status").textContent="Recording...";
+ $("status").className="status";
+
+ const payload={
+  amount:$("amount").value,
+  category:$("category").value,
+  purpose:$("purpose").value.trim(),
+  paid_to:$("paid_to").value.trim(),
+  payment_method:$("payment_method").value,
+  reference:$("reference").value.trim(),
+  authorized_by:$("authorized_by").value.trim(),
+  recorded_by:$("recorded_by").value.trim(),
+  notes:$("notes").value.trim(),
+  transaction_date:$("transaction_date").value,
+  transaction_time:$("transaction_time").value
+ };
+
+ try{
+  const r=await fetch("/api/tlc/disbursements",{
+   method:"POST",
+   headers:{"Content-Type":"application/json"},
+   credentials:"same-origin",
+   body:JSON.stringify(payload)
+  });
+  const d=await r.json();
+  if(!r.ok||d.success===false) throw new Error(d.message||"Unable to record disbursement.");
+  $("status").textContent="Money Out recorded successfully.";
+  $("status").className="status ok";
+  $("f").reset();
+  defaults();
+  await load();
+ }catch(err){
+  $("status").textContent=err.message;
+  $("status").className="status err";
+ }finally{
+  $("save").disabled=false;
+ }
+});
+
+defaults();
+load().catch(e=>{$("status").textContent=e.message;$("status").className="status err";});

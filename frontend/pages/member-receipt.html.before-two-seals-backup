@@ -1,0 +1,657 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TLC | Official Receipt</title>
+
+    <link rel="stylesheet" href="/css/member-receipt.css">
+    <link rel="stylesheet" href="/assets/responsive.css">
+
+    <style>
+        .receipt-page {
+            min-height: 100vh;
+            padding: 30px 18px 50px;
+            background:
+                radial-gradient(circle at top left, rgba(20, 115, 230, .12), transparent 35%),
+                linear-gradient(135deg, #eef5ff, #f8fbff 45%, #eaf1f8);
+        }
+
+        .receipt-actions {
+            max-width: 900px;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .back-button,
+        .action-buttons button {
+            border: 0;
+            border-radius: 10px;
+            padding: 11px 17px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .back-button {
+            background: #17365d;
+            color: white;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .action-buttons button {
+            background: #0b6efd;
+            color: white;
+        }
+
+        .receipt-card {
+            position: relative;
+            max-width: 900px;
+            margin: auto;
+            overflow: hidden;
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 18px 55px rgba(20, 55, 90, .18);
+            border: 1px solid #d8e4ef;
+        }
+
+        .receipt-card::before {
+            content: "";
+            display: block;
+            height: 8px;
+            background: linear-gradient(90deg, #12355b, #0b6efd, #19a974);
+        }
+
+        .receipt-header {
+            padding: 28px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            background: linear-gradient(135deg, #f8fbff, #eef6ff);
+        }
+
+        .receipt-brand {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .receipt-logo {
+            width: 78px;
+            height: 78px;
+            object-fit: contain;
+            border-radius: 50%;
+            background: white;
+            padding: 5px;
+            border: 2px solid #d9e6f3;
+        }
+
+        .receipt-brand h1 {
+            margin: 0;
+            color: #12355b;
+            font-size: 25px;
+            letter-spacing: 1px;
+        }
+
+        .receipt-brand p {
+            margin: 5px 0 0;
+            color: #5d7185;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        .receipt-status {
+            background: #e6f7ef;
+            color: #137a4b;
+            border: 1px solid #a9dfc5;
+            padding: 9px 15px;
+            border-radius: 30px;
+            font-size: 12px;
+            font-weight: 900;
+        }
+
+        .receipt-divider {
+            height: 1px;
+            background: #dce7f0;
+        }
+
+        .receipt-number-section {
+            margin: 25px 32px;
+            padding: 18px 22px;
+            border-radius: 12px;
+            background: #12355b;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .receipt-number-section span {
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            opacity: .8;
+        }
+
+        .receipt-number-section strong {
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        .member-section,
+        .payment-section {
+            margin: 0 32px 25px;
+            padding: 22px;
+            border: 1px solid #dce7f0;
+            border-radius: 14px;
+            background: #fbfdff;
+        }
+
+        .section-heading {
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e6eef6;
+            color: #12355b;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 1.5px;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px 28px;
+        }
+
+        .detail span {
+            display: block;
+            margin-bottom: 5px;
+            color: #718396;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .detail strong {
+            display: block;
+            color: #1c2d3d;
+            font-size: 14px;
+            overflow-wrap: anywhere;
+        }
+
+        .amount-section {
+            margin: 25px 32px;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #eaf5ff, #eefaf5);
+            border: 2px solid #cfe1ef;
+        }
+
+        .amount-section span {
+            display: block;
+            color: #617589;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        .amount-section strong {
+            display: block;
+            margin-top: 8px;
+            color: #12355b;
+            font-size: 32px;
+        }
+
+        .official-section {
+            margin: 25px 32px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .official-stamp {
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .stamp {
+            width: 135px;
+            height: 135px;
+            border: 4px double #17365d;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #17365d;
+            font-weight: 900;
+            font-size: 12px;
+            line-height: 1.4;
+            transform: rotate(-8deg);
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .stamp small {
+            display: block;
+            font-size: 8px;
+            letter-spacing: 1px;
+        }
+
+        .treasurer-box {
+            padding: 20px;
+            border-left: 4px solid #19a974;
+            background: #f5fbf8;
+            border-radius: 10px;
+        }
+
+        .treasurer-box .title {
+            color: #137a4b;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: 1.3px;
+            text-transform: uppercase;
+        }
+
+        .treasurer-box h3 {
+            margin: 7px 0;
+            color: #17365d;
+        }
+
+        .treasurer-box p {
+            margin: 0;
+            color: #687b8e;
+            font-size: 12px;
+        }
+
+        .receipt-footer {
+            margin-top: 25px;
+            padding: 25px 32px;
+            text-align: center;
+            background: #12355b;
+            color: white;
+        }
+
+        .receipt-footer p {
+            margin: 5px 0;
+        }
+
+        .secure-note {
+            opacity: .75;
+            font-size: 11px;
+        }
+
+        .footer-brand {
+            margin-top: 18px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255,255,255,.2);
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            font-size: 11px;
+        }
+
+        .receipt-message {
+            max-width: 900px;
+            margin: 15px auto;
+            text-align: center;
+            color: #b42318;
+            font-weight: 700;
+        }
+
+        @media (max-width: 650px) {
+            .receipt-header,
+            .receipt-number-section {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .details-grid,
+            .official-section {
+                grid-template-columns: 1fr;
+            }
+
+            .receipt-header,
+            .member-section,
+            .payment-section,
+            .amount-section,
+            .official-section,
+            .receipt-footer {
+                margin-left: 16px;
+                margin-right: 16px;
+            }
+
+            .receipt-header,
+            .receipt-footer {
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+
+            .receipt-brand h1 {
+                font-size: 20px;
+            }
+        }
+
+        @media print {
+            .receipt-page {
+                padding: 0;
+                background: white;
+            }
+
+            .receipt-actions {
+                display: none;
+            }
+
+            .receipt-card {
+                max-width: none;
+                border: 0;
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .receipt-card::before {
+                display: none;
+            }
+
+            .receipt-footer {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<main class="receipt-page">
+
+    <div class="receipt-actions">
+        <a href="/member/receipts" class="back-button">
+            ← Back to Receipts
+        </a>
+
+        <div class="action-buttons">
+            <button type="button" id="printReceipt">
+                🖨 Print Receipt
+            </button>
+
+            <button type="button" id="downloadReceipt">
+                ↓ Download Receipt
+            </button>
+        </div>
+    </div>
+
+    <section class="receipt-card" id="receiptCard">
+
+        <header class="receipt-header">
+
+            <div class="receipt-brand">
+
+                <img
+                    src="/assets/tlc_logo.jpeg"
+                    alt="The Legacy Circle Logo"
+                    class="receipt-logo"
+                >
+
+                <div>
+                    <h1>THE LEGACY CIRCLE</h1>
+                    <p>OFFICIAL MEMBER PAYMENT RECEIPT</p>
+                </div>
+
+            </div>
+
+            <div class="receipt-status">
+                <span id="receiptStatus">ISSUED</span>
+            </div>
+
+        </header>
+
+        <div class="receipt-divider"></div>
+
+        <section class="receipt-number-section">
+            <span>OFFICIAL RECEIPT NUMBER</span>
+            <strong id="receiptNumber">—</strong>
+        </section>
+
+        <section class="member-section">
+
+            <div class="section-heading">
+                MEMBER INFORMATION
+            </div>
+
+            <div class="details-grid">
+
+                <div class="detail">
+                    <span>Member Name</span>
+                    <strong id="memberName">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Member ID</span>
+                    <strong id="memberId">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Phone Number</span>
+                    <strong id="phoneNumber">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Email Address</span>
+                    <strong id="email">—</strong>
+                </div>
+
+                
+
+            </div>
+
+        </section>
+
+        <section class="payment-section">
+
+            <div class="section-heading">
+                PAYMENT INFORMATION
+            </div>
+
+            <div class="details-grid">
+
+                <div class="detail">
+                    <span>Payment Type</span>
+                    <strong id="paymentType">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Payment Date</span>
+                    <strong id="paymentDate">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Payment Reference</span>
+                    <strong id="paymentReference">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Transaction Reference</span>
+                    <strong id="transactionReference">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Payment Method</span>
+                    <strong id="paymentMethod">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Payment Time</span>
+                    <strong id="paymentTime">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Description</span>
+                    <strong id="description">—</strong>
+                </div>
+
+                <div class="detail">
+                    <span>Recorded By</span>
+                    <strong id="recordedBy">—</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="amount-section">
+
+            <span>AMOUNT RECEIVED</span>
+
+            <strong id="amount">
+                KES 0.00
+            </strong>
+
+        </section>
+        
+        <section class="receipt-qr-section">
+
+            <div class="qr-information">
+
+                <span class="qr-label">
+                    RECEIPT VERIFICATION
+                </span>
+
+                <h3>
+                    Scan to Verify Receipt
+                </h3>
+
+                <p>
+                    Scan this QR code to verify the authenticity
+                    of this TLC payment receipt.
+                </p>
+
+                <strong id="qrReceiptNumber">
+                    —
+                </strong>
+
+            </div>
+
+            <div class="qr-code-container">
+
+                <div class="qr-wrapper">
+    <div id="receiptQRCode"></div>
+    <span class="qr-label">SCAN TO VERIFY</span>
+</div>
+
+                
+
+            </div>
+
+        </section>
+
+
+        <section class="receipt-authority">
+
+            <div class="official-stamp">
+                <img
+                    src="/assets/tlc_official_stamp.jpeg"
+                    alt="The Legacy Circle Official Seal"
+                >
+            </div>
+
+            <div class="treasurer-recognition">
+
+    <span class="authority-label">
+        OFFICIAL RECEIPT AUTHORITY
+    </span>
+
+    <strong>Alvin Owuor</strong>
+
+    <span class="treasurer-title">
+        Treasurer
+    </span>
+
+    <small>
+        The Legacy Circle (TLC)
+    </small>
+
+    <div class="electronic-signature">
+        Alvin Owuor
+    </div>
+
+    <div class="signature-line"></div>
+
+    <span class="signature-caption">
+        Authorized Treasurer
+    </span>
+
+</div>
+
+        </section>
+
+        </section>
+
+
+        <footer class="receipt-footer">
+
+            <p>
+                Thank you for your contribution to
+                <strong>The Legacy Circle (TLC)</strong>.
+            </p>
+
+            <p class="secure-note">
+                This is an electronically generated receipt.
+            </p>
+
+            <div class="footer-brand">
+                <strong>THE LEGACY CIRCLE (TLC)</strong>
+                <span>Powered by THEE ALVIN TECH SOLUTIONS</span>
+                <span>© 2026 All Rights Reserved.</span>
+            </div>
+
+        </footer>
+
+    </section>
+
+</main>
+
+
+
+
+
+
+<script src="/js/member/receipt-details.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

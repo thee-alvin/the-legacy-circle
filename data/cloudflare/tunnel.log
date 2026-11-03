@@ -1,0 +1,126 @@
+2026-11-03T12:33:59Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-11-03T12:33:59Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-11-03T12:34:06Z INF +--------------------------------------------------------------------------------------------+
+2026-11-03T12:34:06Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-11-03T12:34:06Z INF |  https://plot-obtain-agents-enters.trycloudflare.com                                       |
+2026-11-03T12:34:06Z INF +--------------------------------------------------------------------------------------------+
+2026-11-03T12:34:06Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp]
+2026-11-03T12:34:06Z INF Version 2026.7.3 (Checksum 8635da433b6df8194746e88ed9d2589566c20e38bfc2a80e431a348b7c765841)
+2026-11-03T12:34:06Z INF GOOS: windows, GOVersion: go1.26.4, GoArch: amd64
+2026-11-03T12:34:06Z INF Settings: map[ha-connections:1 protocol:quic url:http://127.0.0.1:5000]
+2026-11-03T12:34:06Z INF cloudflared will not automatically update on Windows systems.
+2026-11-03T12:34:06Z INF Generated Connector ID: 4ec85790-12bb-436e-b591-f3e0445f6cd7
+2026-11-03T12:34:06Z INF Initial protocol quic
+2026-11-03T12:34:06Z INF ICMP proxy will use 192.168.0.108 as source for IPv4
+2026-11-03T12:34:06Z INF ICMP proxy will use fe80::8373:d235:4f46:62cf in zone Wi-Fi as source for IPv6
+2026-11-03T12:34:06Z INF cloudflared does not support loading the system root certificate pool on Windows. Please use --origin-ca-pool <PATH> to specify the path to the certificate pool
+2026-11-03T12:34:06Z INF ICMP proxy will use 192.168.0.108 as source for IPv4
+2026-11-03T12:34:06Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:34:06Z INF ICMP proxy will use fe80::8373:d235:4f46:62cf in zone Wi-Fi as source for IPv6
+2026-11-03T12:34:06Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-11-03T12:34:06Z INF +-------------------------------------------------------------------------------------+
+2026-11-03T12:34:06Z INF |                               CONNECTIVITY PRE-CHECKS                               |
+2026-11-03T12:34:06Z INF +-------------------------------------------------------------------------------------+
+2026-11-03T12:34:06Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                       |
+2026-11-03T12:34:06Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-11-03T12:34:06Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+2026-11-03T12:34:06Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-11-03T12:34:06Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |
+2026-11-03T12:34:06Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-11-03T12:34:06Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+2026-11-03T12:34:06Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |
+2026-11-03T12:34:06Z INF |                                                                                     |
+2026-11-03T12:34:06Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'quic' as primary protocol.  |
+2026-11-03T12:34:06Z INF +-------------------------------------------------------------------------------------+
+2026-11-03T12:34:06Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=b984e6db-682b-495b-9493-c0abacf68ea4 status=pass target=region1.v2.argotunnel.com
+2026-11-03T12:34:06Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=b984e6db-682b-495b-9493-c0abacf68ea4 status=pass target=region2.v2.argotunnel.com
+2026-11-03T12:34:06Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=b984e6db-682b-495b-9493-c0abacf68ea4 status=pass target=region1.v2.argotunnel.com
+2026-11-03T12:34:06Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=b984e6db-682b-495b-9493-c0abacf68ea4 status=pass target=region2.v2.argotunnel.com
+2026-11-03T12:34:06Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=b984e6db-682b-495b-9493-c0abacf68ea4 status=pass target=region1.v2.argotunnel.com
+2026-11-03T12:34:06Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=b984e6db-682b-495b-9493-c0abacf68ea4 status=pass target=region2.v2.argotunnel.com
+2026-11-03T12:34:06Z INF precheck component="Cloudflare API" details="API is reachable" run_id=b984e6db-682b-495b-9493-c0abacf68ea4 status=pass target=api.cloudflare.com:443
+2026-11-03T12:34:06Z INF precheck complete hard_fail=false run_id=b984e6db-682b-495b-9493-c0abacf68ea4 suggested_protocol=quic
+2026-11-03T12:34:06Z INF Registered tunnel connection connIndex=0 connection=a40b9f43-0c54-47e8-8985-7fbf9e4399c4 event=0 ip=198.41.192.77 location=mba03 protocol=quic
+2026-11-03T12:49:59Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:49:59Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:49:59Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:49:59Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:49:59Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:49:59Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:50:04Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:50:04Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.77
+2026-11-03T12:50:05Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T12:50:10Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T12:50:10Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T12:50:17Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:50:22Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:50:22Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:50:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.27
+2026-11-03T12:50:37Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.27
+2026-11-03T12:50:37Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.27
+2026-11-03T12:50:40Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-11-03T12:50:45Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-11-03T12:50:45Z INF Retrying connection in up to 1m4s connIndex=0 event=0 ip=198.41.192.167
+2026-11-03T12:51:16Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-11-03T12:51:21Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-11-03T12:51:21Z INF Retrying connection in up to 1m4s connIndex=0 event=0 ip=198.41.200.73
+2026-11-03T12:51:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:51:36Z INF Registered tunnel connection connIndex=0 connection=ca43d187-c961-4f83-b0e3-1d26a75bfa4d event=0 ip=198.41.200.233 location=jnb01 protocol=quic
+2026-11-03T12:56:34Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:56:34Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:56:34Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:56:34Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:56:34Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:56:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T12:56:38Z INF Registered tunnel connection connIndex=0 connection=68d2cf77-4758-4411-a9c3-deae1743dcb4 event=0 ip=198.41.200.233 location=jnb01 protocol=quic
+2026-11-03T13:04:12Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+2026-11-03T13:04:23Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T13:04:23Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T13:04:23Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T13:04:23Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T13:04:23Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T13:04:23Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T13:04:28Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T13:04:28Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.233
+2026-11-03T13:04:30Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.27
+2026-11-03T13:04:35Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.27
+2026-11-03T13:04:35Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.27
+2026-11-03T13:04:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T13:04:41Z INF Registered tunnel connection connIndex=0 connection=27624efa-a2c5-48e4-9429-aac5b0358c52 event=0 ip=198.41.192.7 location=mba03 protocol=quic
+2026-11-03T13:10:47Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T13:10:47Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T13:10:47Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T13:10:47Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T13:10:47Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T13:10:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-03T13:10:49Z INF Registered tunnel connection connIndex=0 connection=d7c8a22f-cdcb-4d40-b7d9-434bfd32026c event=0 ip=198.41.192.7 location=mba03 protocol=quic
+2026-11-03T13:24:43Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:24:43Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/tlc/financial-register event=0 ip=198.41.192.7 type=http
+2026-11-03T13:24:44Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:24:44Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/tlc/financial-register event=0 ip=198.41.192.7 type=http
+2026-11-03T13:25:43Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:25:43Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/tlc/financial-register event=0 ip=198.41.192.7 type=http
+2026-11-03T13:26:25Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:26:25Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/login event=0 ip=198.41.192.7 type=http
+2026-11-03T13:26:25Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:26:25Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/login event=0 ip=198.41.192.7 type=http
+2026-11-03T13:26:26Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:26:26Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/login event=0 ip=198.41.192.7 type=http
+2026-11-03T13:26:26Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:26:26Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/login event=0 ip=198.41.192.7 type=http
+2026-11-03T13:26:48Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:26:48Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/member/receipts event=0 ip=198.41.192.7 type=http
+2026-11-03T13:26:48Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:26:48Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/member/profile event=0 ip=198.41.192.7 type=http
+2026-11-03T13:26:49Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:26:49Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/member/announcements event=0 ip=198.41.192.7 type=http
+2026-11-03T13:26:49Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:26:49Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/tlc/analytics event=0 ip=198.41.192.7 type=http
+2026-11-03T13:28:11Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:28:11Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/css/dashboard.css event=0 ip=198.41.192.7 type=http
+2026-11-03T13:28:11Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:28:11Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/assets/responsive.css event=0 ip=198.41.192.7 type=http
+2026-11-03T13:28:54Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:28:54Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/tlc/health event=0 ip=198.41.192.7 type=http
+2026-11-03T13:31:00Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:5000
+2026-11-03T13:31:01Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://plot-obtain-agents-enters.trycloudflare.com/api/tlc/financial-register event=0 ip=198.41.192.7 type=http

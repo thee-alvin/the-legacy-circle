@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TLC Money Out</title>
+<style>
+body{margin:0;background:#07111f;color:#f4f7fb;font-family:Segoe UI,Arial,sans-serif}
+.wrap{max-width:1100px;margin:auto;padding:25px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+h1{margin:0}.muted{color:#9fb0c4}
+.card{background:#0d1b2d;border:1px solid #ffffff14;border-radius:16px;padding:20px;margin-top:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.full{grid-column:1/-1}
+label{display:block;margin-bottom:6px;font-weight:700;font-size:13px}
+input,select,textarea{width:100%;box-sizing:border-box;padding:12px;border-radius:9px;border:1px solid #ffffff14;background:#081727;color:white}
+textarea{min-height:80px}
+button,a{border:0;border-radius:9px;padding:12px 17px;font-weight:700;text-decoration:none}
+button{background:#1687f7;color:white;cursor:pointer}
+a{background:#d4af37;color:#07111f}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.stat{background:#ffffff08;padding:15px;border-radius:11px}
+.stat span{display:block;color:#9fb0c4;font-size:12px}.stat strong{font-size:23px}
+table{width:100%;border-collapse:collapse;margin-top:15px}
+th,td{text-align:left;padding:10px;border-bottom:1px solid #ffffff12}
+.status{margin-left:10px}.ok{color:#71dfa0}.err{color:#ff7777}
+@media(max-width:750px){.grid{grid-template-columns:1fr}.full{grid-column:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top">
+<div>
+<h1>TLC Money Out</h1>
+<div class="muted">Official disbursement recording</div>
+</div>
+<a href="/tlc-financial-register">Financial Register</a>
+</div>
+
+<div class="grid">
+<section class="card">
+<h2>Record Disbursement</h2>
+<form id="f">
+
+<label>Amount (KSh)</label>
+<input id="amount" type="number" min="1" step="0.01" required>
+
+<label>Category</label>
+<select id="category" required>
+<option value="">Select category</option>
+<option>Welfare</option>
+<option>Meeting</option>
+<option>Transport</option>
+<option>Refreshments</option>
+<option>Administration</option>
+<option>Emergency</option>
+<option>Bank / Transaction Charges</option>
+<option>Other</option>
+</select>
+
+<label>Purpose</label>
+<input id="purpose" required>
+
+<label>Paid To</label>
+<input id="paid_to" required>
+
+<label>Payment Method</label>
+<select id="payment_method" required>
+<option value="">Select method</option>
+<option>M-PESA</option>
+<option>Bank</option>
+<option>Cash</option>
+<option>Airtel Money</option>
+<option>Other</option>
+</select>
+
+<label>Reference</label>
+<input id="reference">
+
+<label>Authorized By</label>
+<input id="authorized_by" required>
+
+<label>Recorded By</label>
+<input id="recorded_by" required>
+
+<div class="grid">
+<div><label>Date</label><input id="transaction_date" type="date" required></div>
+<div><label>Time</label><input id="transaction_time" type="time" required></div>
+</div>
+
+<label>Notes</label>
+<textarea id="notes"></textarea>
+
+<br>
+<button id="save">Record Money Out</button>
+<span id="status" class="status"></span>
+</form>
+</section>
+
+<section class="card">
+<h2>Money Out Summary</h2>
+<div class="stats">
+<div class="stat"><span>Total Money Out</span><strong id="total">KSh 0.00</strong></div>
+<div class="stat"><span>Transactions</span><strong id="count">0</strong></div>
+</div>
+
+<h2>Recent Disbursements</h2>
+<div style="overflow:auto">
+<table>
+<thead><tr><th>Date</th><th>Purpose</th><th>Paid To</th><th>Amount</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+</section>
+</div>
+
+<p style="text-align:center;color:#718198;font-size:12px">Powered by Thee Alvin Tech Solutions</p>
+</div>
+<script src="/assets/tlc_disbursements.js"></script>
+</body>
+</html>

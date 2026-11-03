@@ -1,0 +1,70 @@
+
+.constitution-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin: 0 0 20px;
+    flex-wrap: wrap;
+}
+
+.constitution-action-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 0 18px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.download-btn {
+    background: #0b1f3a;
+    color: #ffffff;
+}
+
+.print-btn {
+    background: #c9a227;
+    color: #111111;
+}
+
+.constitution-action-btn:hover {
+    transform: translateY(-1px);
+    opacity: 0.92;
+}
+
+@media print {
+    .sidebar,
+    .constitution-actions,
+    header,
+    .topbar,
+    nav,
+    footer,
+    .mobile-menu,
+    button {
+        display: none !important;
+    }
+
+    body {
+        background: #ffffff !important;
+    }
+
+    .main-content,
+    main,
+    .constitution-content {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    .article-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
